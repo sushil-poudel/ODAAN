@@ -1,0 +1,113 @@
+/**
+ * Created by Joshua Tamang
+*/
+
+@import "components/fonts_and_colors";
+
+
+
+/*------------------------------------ Site Wide Starts -----------------------------------*/
+
+/*------------------------------------- Site Wide Ends ------------------------------------*/
+
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+/*-------------------------------- Content Wrapper Starts ---------------------------------*/
+/*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+/*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+/*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+/*----------------------------------- Components Starts -----------------------------------*/
+.common-remove-tab-style{
+  border-bottom: 0;
+  li{
+    a{
+      padding: 0;
+      background-color: transparent;
+      border: 0;
+      &:focus, &:hover {
+        background-color: transparent;
+        border: 0;
+      }
+    }
+
+    &.active{
+      a{
+        background-color: transparent;
+        border: 0;
+        &:focus,&:hover{
+          background-color: transparent;
+          border: 0;
+        }
+      }
+    }
+  }
+}
+/*------------------------------------ Components Ends ------------------------------------*/
+
+/*---------------------------------- Slick Slider Starts ----------------------------------*/
+/*---------------------------------- Slick Slider Starts ----------------------------------*/
+.slick-slider{
+  .slick-prev,.slick-next{
+
+  }
+
+  .slick-prev{
+    left: 20px;
+  }
+
+  .slick-next{
+    right: 20px;
+  }
+}
+/*----------------------------------- Slick Slider Ends -----------------------------------*/
+/*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+/*------------------------------------- Mcustom Starts ------------------------------------*/
+/*-------------------------------------- Mcustom Ends -------------------------------------*/
+
+/*-------------------------------------- Modal Starts -------------------------------------*/
+.modal-dialog{
+  margin: 70px auto;
+  .modal-header{
+    padding: 0;
+    border: 0;
+    button{
+      position: absolute;
+      top: -30px;
+      right: 0;
+      color: #fff;
+      opacity: 1;
+    }
+  }
+  .modal-content{
+    background: black;
+    border-radius: 0;
+    .modal-body{
+      padding: 30px 26px;
+      .modal-loading-gif{
+        height: 130px;
+        position: relative;
+        img{
+          width: 30px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          top:50%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+        }
+      }
+      p,h1,h2,h3,h4,h5,h6,ul li,ol li,span{
+        color: #fff;
+      }
+    }
+  }
+}
+/*--------------------------------------- Modal Ends --------------------------------------*/
