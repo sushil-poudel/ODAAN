@@ -16,13 +16,13 @@
                                 </div>
 
                                 <div class="section-content-banner">
-                                <span></span> <p>EST 1995</p> <span></span>
+                                <span class="thick"></span> <p>EST 1995</p> <span class="thick"></span>
                                 </div>
-                                <div class="section-content">
+                                <div class="section-content" id="home-scroll">
                                     <p>scroll for more</p>
                                 </div>
                                 <div class="icon-container">
-                                <i class="fas fa-angle-double-down"></i>
+                                    <i class="fas fa-angle-double-down"></i>
                                 </div>
                             </div>
                         </div>
@@ -35,20 +35,20 @@
                         <div class="inner">
                             <div class="banner-content">
                                 <div class="section-content-banner">
-                                <span></span> <p>hotel</p> <span></span>
+                                    <span></span> <p>hotel</p> <span></span>
                                 </div>
                                 <div class="section-title">
                                     <h1>od<span>a</span>an</h1>
                                 </div>
 
                                 <div class="section-content-banner">
-                                <span></span> <p>EST 1995</p> <span></span>
+                                    <span></span> <p>EST 1995</p> <span></span>
                                 </div>
                                 <div class="section-content">
                                     <p>scroll for more</p>
                                 </div>
                                 <div class="icon-container">
-                                <i class="fas fa-angle-double-down"></i>
+                                    <i class="fas fa-angle-double-down"></i>
                                 </div>
                             </div>
                         </div>
@@ -67,14 +67,18 @@
             <div class="custom-container">
                 <div class="search-container">
                     <div class="section-title">
-                        <h2>check for rooms <span>availability</span> </h2>
+                        <h2>check for room <span>availability</span> </h2>
                     </div>
                     <form action="#" class="form-container">
                         <div class="form-inputs">
-                            <input type="text" class="form-input" name="check-in" placeholder="check in">
-                            <input type="text" class="form-input" name="check-out" placeholder="check out">
+                           
+                        <input placeholder="check in" class="form-input date" type="text" onfocus="(this.type='date')" id="date">
+                        <input placeholder="check out" class="form-input date" type="text" onfocus="(this.type='date')" id="date">
+                            
                             <input type="number" class="form-input" name="number-of-people" placeholder="number of people">
                             <input type="text" class="form-input" name="room-type" placeholder="room type">
+                          
+                           
                         </div>
                         <div class="common-icon-button">
                             <button>
@@ -87,16 +91,16 @@
             </div>
         </section>
     </section>
-    
+ 
     <section class="display-room-section">
         <div class="custom-container">
             <div class="display-room-container">
                 <div class="section-heading-container">
-                    <div class="section-title">
-                        elegant hotel
+                    <div class="common-section-subtitle">
+                        <h2>elegant hotel</h2> 
                     </div>
-                    <div class="section-subtitle">
-                        enjoy your stay in odaan    
+                    <div class="common-section-title">
+                        <h1> enjoy your stay in odaan</h1>    
                     </div>
                 </div>
                 <div class="card-container">
@@ -118,16 +122,19 @@
                             </ul>
                         </div>
                         <div class="row3-container">
-                           <ul>
-                               <li><div class="image-container"><img src="assets/img/icon/bedroom icon.png" alt=""> </div> </li>
-                               <li class="text">1 Bed</li>
-                               <li><div class="image-container"><img src="assets/img/icon/guest icon.png" alt=""> </div> </li>
-                               <li class="text"> 2 Guests </li>
-                               <li> <li> <div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </div> </li></li>
-                               <li class="text">Hot Water</li>
-                               <li> <li> <div class="image-container"><img src="assets/img/icon/Ac icon.png" alt=""> </div> </li></li>
-                               <li class="text">Ac</li>
-                           </ul>
+                            <ul>
+                                <li><img src="assets/img/icon/bedroom icon.png" alt=""> </li>
+                                <li class="text">1 Bed</li>
+
+                                <li><img src="assets/img/icon/guest icon.png" alt=""></li>
+                                <li class="text"> 2 Guests </li>
+                         
+                                <li><div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </li>
+                                <li class="text">Hot Water</li>
+                         
+                                <li><img src="assets/img/icon/Ac icon.png" alt=""> </li>
+                                <li class="text">Ac</li>
+                            </ul>
                         </div>
                     </div> 
                     <div class="card-item">
@@ -148,18 +155,21 @@
                             </ul>
                         </div>
                         <div class="row3-container">
-                           <ul>
-                               <li><div class="image-container"><img src="assets/img/icon/bedroom icon.png" alt=""> </div> </li>
+                            <ul>
+                                <li><img src="assets/img/icon/bedroom icon.png" alt=""> </li>
                                <li class="text">1 Bed</li>
-                               <li><div class="image-container"><img src="assets/img/icon/guest icon.png" alt=""> </div> </li>
-                               <li class="text"> 2 Guests </li>
-                               <li> <li> <div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </div> </li></li>
+
+                                <li><img src="assets/img/icon/guest icon.png" alt=""></li>
+                                <li class="text"> 2 Guests </li>
+                         
+                                <li><div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </li>
                                <li class="text">Hot Water</li>
-                               <li> <li> <div class="image-container"><img src="assets/img/icon/Ac icon.png" alt=""> </div> </li></li>
-                               <li class="text">Ac</li>
-                           </ul>
+                         
+                                <li><img src="assets/img/icon/Ac icon.png" alt=""> </li>
+                                <li class="text">Ac</li>
+                            </ul>
                         </div>
-                    </div> 
+                    </div>  
                     <div class="card-item">
                         <div class="row1-container">
                             <div class="image-container">
@@ -178,38 +188,40 @@
                             </ul>
                         </div>
                         <div class="row3-container">
-                           <ul>
-                               <li><div class="image-container"><img src="assets/img/icon/bedroom icon.png" alt=""> </div> </li>
+                            <ul>
+                                <li><img src="assets/img/icon/bedroom icon.png" alt=""> </li>
                                <li class="text">1 Bed</li>
-                               <li><div class="image-container"><img src="assets/img/icon/guest icon.png" alt=""> </div> </li>
-                               <li class="text"> 2 Guests </li>
-                               <li> <li> <div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </div> </li></li>
+
+                                <li><img src="assets/img/icon/guest icon.png" alt=""></li>
+                                <li class="text"> 2 Guests </li>
+                         
+                                <li><div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </li>
                                <li class="text">Hot Water</li>
-                               <li> <li> <div class="image-container"><img src="assets/img/icon/Ac icon.png" alt=""> </div> </li></li>
-                               <li class="text">Ac</li>
-                           </ul>
+                         
+                                <li><img src="assets/img/icon/Ac icon.png" alt=""> </li>
+                                <li class="text">Ac</li>
+                            </ul>
                         </div>
                     </div> 
-                  
                 </div>  
             </div>
         </div>
     </section>
 
-    <section class="surprises-section">
+    <section class="menu-section">
         <div class="custom-container">
-            <div class="surprises-container">
+            <div class="menu-container">
                 <div class="column-1">
                     <div class="common-section-subtitle">
-                        <h2>explore oure menus</h2>
+                        <h2>explore our menus</h2>
                     </div>
-                    <div class="common-section-heading">
+                    <div class="common-section-title">
                         <h1>odaan cafe surprises</h1>
                     </div>
-                    <div class="common-section-content">
+                    <div class="text-container">
                         <p>A newly established food house, you can step in anytime which provides you with firewood main course meal followed by continental foods and chinese cuisine.</p>
                     </div>
-                    <div class="section-title">
+                    <div class="menu-title">
                         <h2>menu toggle</h2>
                     </div>
                     <div class="section-accordion">
@@ -317,10 +329,10 @@
                     <div class="common-section-subtitle">
                         <h2>restaurant & lounge bar</h2>
                     </div>
-                    <div class="common-section-heading">
+                    <div class="common-section-title">
                         <h1>odaan relaxing pleasure </h1>
                     </div>
-                    <div class="common-section-content">
+                    <div class="text-container">
                         <p>odaan restaurant and launge Bar has created an atmosphere of the effortless indulgence combined with the most refined live entertainment.</p>
                     </div>
                     <div class="row">
@@ -357,24 +369,24 @@
     <section class="service-section">
         <div class="custom-container">
             <div class="service-container">
-                <div class="common-section-subtitle">
-                   <h2>what we do</h2>
+                <div class="common-section-subtitle line">
+                   <span></span> <h2>what we do</h2> <span></span>
                 </div>
-                <div class="common-section-heading">
+                <div class="common-section-title">
                     <h1>our services</h1>
                 </div>
                 <div class="section-content">
                 <div class="column-1">
-                    <div class="common-box-container after">
+                    <div class="common-box-container left text-right">
                         <h2>24h Front Desk</h2>
                         <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
                     </div>
-                    <div class="common-box-container after">
-                        <h2>24h Front Desk</h2>
+                    <div class="common-box-container left text-right">
+                        <h2>airport transfers</h2>
                         <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
                     </div>
-                    <div class="common-box-container after">
-                        <h2>24h Front Desk</h2>
+                    <div class="common-box-container left text-right">
+                        <h2>outdoor activities</h2>
                         <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
                     </div>
                 </div>
@@ -384,16 +396,16 @@
                     </div>
                 </div>
                 <div class="column-1">
-                    <div class="common-box-container before">
-                        <h2>24h Front Desk</h2>
+                    <div class="common-box-container right  ">
+                        <h2>restaurant & bars </h2>
                         <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
                     </div> 
-                    <div class="common-box-container before">
-                        <h2>24h Front Desk</h2>
+                    <div class="common-box-container right ">
+                        <h2>live music show </h2>
                         <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
                     </div>
-                    <div class="common-box-container before">
-                        <h2>24h Front Desk</h2>
+                    <div class="common-box-container right  ">
+                        <h2>15K per night stay</h2>
                         <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
                     </div>
                 </div>

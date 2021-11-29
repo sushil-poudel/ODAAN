@@ -89,7 +89,8 @@
                                  
                                 </li>
                                 <li class="#"><a href="#">our events</a></li>
-                                <li class="common-button-container"><a href="contact.php"><button><i class="fas fa-phone-square-alt"></i>  room request</button>  </a></li>
+                                <li class="#"><a href="#">gallery</a></li>
+                                <li class="common-button-container"><a href="contact.php"><button><i class="fas fa-phone-square-alt"></i> +977 9861248976</button>  </a></li>
                             </ul> 
                         </div>
                     </div> 

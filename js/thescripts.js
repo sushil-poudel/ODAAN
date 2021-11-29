@@ -9,12 +9,10 @@
      mcustomInit(); 
      addScrollClass();
  });
- 
- 
  /*------------------------------- Functions Starts -------------------------------*/
  function sliderInit() {
      $('.common-banner-slider').slick({
-         arrows: true,
+         arrows: false,
          dots: false,
          autoplay: false,
          speed: 500,
@@ -23,6 +21,7 @@
          cssEase: 'linear',
          slidesToShow: 1,
          slidesToScroll: 1,
+        
          responsive: [
              {
                  breakpoint: 667,
@@ -44,6 +43,7 @@
         cssEase: 'linear',
         slidesToShow: 1,
         slidesToScroll: 1,
+     
         responsive: [
             {
                 breakpoint: 667,
@@ -54,8 +54,6 @@
             }
         ]
     });
- 
- 
  }
  
  function navInit() {
@@ -73,8 +71,8 @@
  }
  
  function addScrollClass() {
-     $('#home-scroll, #campaign-scroll, #contact-scroll, #events-scroll, #resources-scroll').click (function() {
-         $('html, body').animate({scrollTop: $('.common-about-us-section').offset().top }, 'slow');
+     $('.icon-container, #campaign-scroll, #contact-scroll, #events-scroll, #resources-scroll').click (function() {
+         $('html, body').animate({scrollTop: $('.display-room-section').offset().top }, 'slow');
          return false;
      });
  
@@ -105,21 +103,9 @@
          axis:"x" // horizontal scrollbar
      });*/
  }
-  
- function addClassInit() {
-     $('.common-select').on('change', function (e) {
-         var $optionSelected = $("option:selected", this);
-         $('.common-select').children('select').children('option').removeClass('active').removeAttr('aria-expanded');
-         $optionSelected.tab('show')
-     });
- }
- function addClassInit() {
-     $('.common-select').on('change', function (e) {
-         var $optionSelected = $("option:selected", this);
-         $('.common-select').children('select').children('option').removeClass('active').removeAttr('aria-expanded');
-         $optionSelected.tab('show')
-     });
- }
+
+
+
  
  /*-------------------------------- Functions Ends --------------------------------*/
  
