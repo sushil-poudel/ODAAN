@@ -55,21 +55,50 @@
                         <h1>standard rooms </h1>
                         <h2> PRICE: <span> NPR. 2455.00</span> </h2>
                         <p>We offer deluxe room with king size bed and well equipped with all the facilities and equipments you need for a comfortable stay.</p>
-                        <h3>amenities</h3>
-                        <ul>
-                            <li> <div class="image-container"><img src="assets/img/icon/bedroom icon.png" alt=""></div> </li>
-                            <li>1 bed </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/guest icon.png" alt=""></div> </li>
-                            <li>2 guests </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""></div> </li>
-                            <li> hot water </li>
-                        </ul>
-                        <ul>
-                            <li> <div class="image-container"><img src="assets/img/icon/ac-color.png" alt=""></div> </li>
-                            <li>ac </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/wifi.png" alt=""></div> </li>
-                            <li>free wifi  </li>  
-                        </ul>
+                       
+                        <div class="common-facilities-container">
+                            <h2>amenities</h2>
+                             <ul>
+                                <li>
+                                    <img src="assets/img/icon/bedroom icon.png" alt="">
+                                
+                                </li>
+                                <li>
+                                    1 bed 
+                                </li>
+
+                                <li>
+                                    <img src="assets/img/icon/guest icon.png" alt=""> 
+                                </li>
+                                <li>
+                                    2 guests 
+                                </li>
+                                <li> 
+                                    <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                </li>
+                                <li>
+                                    hot water
+                                </li>
+                            </ul>
+                            <ul>
+                                <li> 
+                                    <img src="assets/img/icon/ac-color.png" alt="">
+                                </li>
+
+                                <li>
+                                    ac
+                                </li>
+
+                                <li> 
+                                    <img src="assets/img/icon/wifi.png" alt=""> 
+                                </li>
+
+                                <li>
+                                    free wifi
+                                </li>  
+                            </ul>
+                         
+                        </div>
                         <h4>book suite</h4>
                     </div>
                 </div>
@@ -99,21 +128,50 @@
                         <h1>standard rooms </h1>
                         <h2> PRICE: <span> NPR. 2455.00</span> </h2>
                         <p>We offer deluxe room with king size bed and well equipped with all the facilities and equipments you need for a comfortable stay.</p>
-                        <h3>amenities</h3>
-                        <ul>
-                            <li> <div class="image-container"><img src="assets/img/icon/bedroom icon.png" alt=""></div> </li>
-                            <li>1 bed </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/guest icon.png" alt=""></div> </li>
-                            <li>2 guests </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""></div> </li>
-                            <li> hot water </li>
-                        </ul>
-                        <ul>
-                            <li> <div class="image-container"><img src="assets/img/icon/ac-color.png" alt=""></div> </li>
-                            <li>ac </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/wifi.png" alt=""></div> </li>
-                            <li>free wifi  </li>  
-                        </ul>
+                        <div class="common-facilities-container">
+                            <h2>amenities</h2>
+                             <ul>
+                                <li>
+                                    <img src="assets/img/icon/bedroom icon.png" alt="">
+                                
+                                </li>
+                                <li>
+                                    1 bed 
+                                </li>
+
+                                <li>
+                                    <img src="assets/img/icon/guest icon.png" alt=""> 
+                                </li>
+                                <li>
+                                    2 guests 
+                                </li>
+                                <li> 
+                                    <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                </li>
+                                <li>
+                                    hot water
+                                </li>
+                            </ul>
+                            <ul>
+                                <li> 
+                                    <img src="assets/img/icon/ac-color.png" alt="">
+                                </li>
+
+                                <li>
+                                    ac
+                                </li>
+
+                                <li> 
+                                    <img src="assets/img/icon/wifi.png" alt=""> 
+                                </li>
+
+                                <li>
+                                    free wifi
+                                </li>  
+                            </ul>
+                         
+                        </div>
+                        
                         <h4>book suite</h4>
                     </div>
                 </div>
@@ -142,21 +200,49 @@
                         <h1>standard rooms </h1>
                         <h2> PRICE: <span> NPR. 2455.00</span> </h2>
                         <p>We offer deluxe room with king size bed and well equipped with all the facilities and equipments you need for a comfortable stay.</p>
-                        <h3>amenities</h3>
-                        <ul>
-                            <li> <div class="image-container"><img src="assets/img/icon/bedroom icon.png" alt=""></div> </li>
-                            <li>1 bed </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/guest icon.png" alt=""></div> </li>
-                            <li>2 guests </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""></div> </li>
-                            <li> hot water </li>
-                        </ul>
-                        <ul>
-                            <li> <div class="image-container"><img src="assets/img/icon/ac-color.png" alt=""></div> </li>
-                            <li>ac </li>
-                            <li> <div class="image-container"><img src="assets/img/icon/wifi.png" alt=""></div> </li>
-                            <li>free wifi  </li>  
-                        </ul>
+                        <div class="common-facilities-container">
+                            <h2>amenities</h2>
+                             <ul>
+                                <li>
+                                    <img src="assets/img/icon/bedroom icon.png" alt="">
+                                
+                                </li>
+                                <li>
+                                    1 bed 
+                                </li>
+
+                                <li>
+                                    <img src="assets/img/icon/guest icon.png" alt=""> 
+                                </li>
+                                <li>
+                                    2 guests 
+                                </li>
+                                <li> 
+                                    <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                </li>
+                                <li>
+                                    hot water
+                                </li>
+                            </ul>
+                            <ul>
+                                <li> 
+                                    <img src="assets/img/icon/ac-color.png" alt="">
+                                </li>
+
+                                <li>
+                                    ac
+                                </li>
+
+                                <li> 
+                                    <img src="assets/img/icon/wifi.png" alt=""> 
+                                </li>
+
+                                <li>
+                                    free wifi
+                                </li>  
+                            </ul>
+                         
+                        </div>
                         <h4>book suite</h4>
                     </div>
                 </div>

@@ -40,6 +40,9 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- IMPORT FONT AWESOME ENDS -->
 
+        <!-- IMPORT BOOTSTRAP ICONS STARTS  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <!-- IMPORT BOOTSTRAP ICONS ENDS -->
 
         <!-- IMPORT SLICK SLIDER CSS STARTS  -->
 
@@ -72,25 +75,34 @@
                         <div class="nav-content">
                             <ul class="mainmenu-container">
                                 <li class="submenu-container">
-                                    <a href="#">about odaan </a>
-                                    <!-- <ul class="dropdown-menu-own">
-                                        <li> <a href="about.php"> WHY CHOOSE US</a> </li>
-                                        <li>  <a href="message-ceo.php"> MESSAGE FROM CEO</a></li>
-                                        <li><a href="team.php"> TEAM MEMBERS</a></li>
-                                    </ul> -->
+                                    <a href="#">about odaan <span><i class="fa fa-angle-down"></i></span> </a>
+                                    <ul class="dropdown-menu-own">
+                                        <li> <a href="about.php"> why choose us </a> </li>
+                                        <li>  <a href="message-ceo.php">message from founder </a></li>
+                                        <li><a href="team.php"> contact us</a></li>
+                                    </ul>
                                 </li>
                             
-                                <li class="#">
-                                    <a href="#">type of rooms   </a>
+                                <li class="submenu-container">
+                                    <a href="room-type.php">type of rooms  <span><i class="fa fa-angle-down"></i></span> </a>
+                                    <ul class="dropdown-menu-own">
+                                        <li> <a href="#">standard room </a> </li>
+                                        <li> <a href="#">superior room</a> </li>
+                                        <li> <a href="#">junior suite</a> </li>
+                                    </ul>
+                                </li>
+                                <li class="submenu-container">
+                                    <a href="menu.php">our menu</a>
                                  
                                 </li>
-                                <li class="#">
-                                    <a href="#">reservation </a>
-                                 
+                                <li class="submenu-container"><a href="events.php">our events <span><i class="fa fa-angle-down"></i></span></a>
+                                    <ul class="dropdown-menu-own">
+                                        <li>  <a href="#">view events</a> </li>
+                                        <li> <a href="#"> buy a ticket</a> </li>
+                                    </ul>
                                 </li>
-                                <li class="#"><a href="#">our events</a></li>
-                                <li class="#"><a href="#">gallery</a></li>
-                                <li class="common-button-container"><a href="contact.php"><button><i class="fas fa-phone-square-alt"></i> +977 9861248976</button>  </a></li>
+                                <li class="submenu-container"><a href="gallery.php">gallery</a></li>
+                                <li class="common-button-container submenu-container"><a href="contact.php"><button><i class="fas fa-phone-square-alt"></i> +977 9861248976</button>  </a></li>
                             </ul> 
                         </div>
                     </div> 

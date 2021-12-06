@@ -1,5 +1,22 @@
 <?php include('header.php')?>
 
+
+$f1:18px;
+$f2:20px;
+$f3:22px;
+$f4:24px;
+$f5:26px;
+$f6:28px;
+$f7:32px;
+$f8:34px;
+$f9:36px;
+$f10:32px;
+$f11:38px;
+$f12:40px;
+$f13:42px;
+$f14:44px;
+
+
 <div id="homepage">
     <section class="common-banner-section">
         <div class="common-banner-slider">
@@ -67,7 +84,7 @@
             <div class="custom-container">
                 <div class="search-container">
                     <div class="section-title">
-                        <h2>check for room <span>availability</span> </h2>
+                        <h2>check for room availability</h2>
                     </div>
                     <form action="#" class="form-container">
                         <div class="form-inputs">
@@ -210,8 +227,8 @@
 
     <section class="menu-section">
         <div class="custom-container">
-            <div class="menu-container">
-                <div class="column-1">
+            <div class="menu-container animation-area">
+                <div class="column-1 ani-sequence ">
                     <div class="common-section-subtitle">
                         <h2>explore our menus</h2>
                     </div>
@@ -228,44 +245,100 @@
                     <ul uk-accordion>
                         <li>
                             <a class="uk-accordion-title" href="#">appetizers</a>
-                            <div class="uk-accordion-content">Aromatic chicken soup rich with coconut milk and flavored with galanga, lime leaves.</div>
+                            <div class="uk-accordion-content">
+                                <div class="section-menu-item">
+                                    <ul>
+                                        <li>
+                                            <div class="common-icon-button">
+                                            <button> <span> NPR. <br>1255</span> </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>tom kha gai</h5>
+                                            <p>Aromatic chicken soup rich with coconut milk and flavored with galanga, lime leaves.</p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <div class="common-icon-button">
+                                            <button> <span> NPR. <br>1255</span> </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>steamed dumpling</h5>
+                                            <p>Stuffed with shrimp, crabmeat, chicken, shitake mushroom served with spicy soy sauce.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a class="uk-accordion-title" href="#">soups & salads</a>
-                            <div class="uk-accordion-content">Aromatic chicken soup rich with coconut milk and flavored with galanga, lime leaves.</div>
+                            <a class="uk-accordion-title" href="#">
+                                soups & salads
+                            </a>
+                            <div class="uk-accordion-content">
+                                <div class="section-menu-item">
+                                    <ul>
+                                        <li>
+                                            <div class="common-icon-button">
+                                            <button> <span> NPR. <br>1255</span> </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>tom kha gai</h5>
+                                            <p>Aromatic chicken soup rich with coconut milk and flavored with galanga, lime leaves.</p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <div class="common-icon-button">
+                                            <button> <span> NPR. <br>1255</span> </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>steamed dumpling</h5>
+                                            <p>Stuffed with shrimp, crabmeat, chicken, shitake mushroom served with spicy soy sauce.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <a class="uk-accordion-title" href="#">lunch & dinner</a>
-                            <div class="uk-accordion-content">Aromatic chicken soup rich with coconut milk and flavored with galanga, lime leaves.</div>
+                            <a class="uk-accordion-title" href="#">
+                                lunch & dinner
+                            </a>
+                            <div class="uk-accordion-content">
+                                <div class="section-menu-item">
+                                    <ul>
+                                        <li>
+                                            <div class="common-icon-button">
+                                            <button> <span> NPR. <br>1255</span> </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>tom kha gai</h5>
+                                            <p>Aromatic chicken soup rich with coconut milk and flavored with galanga, lime leaves.</p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <div class="common-icon-button">
+                                            <button> <span> NPR. <br>1255</span> </button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>steamed dumpling</h5>
+                                            <p>Stuffed with shrimp, crabmeat, chicken, shitake mushroom served with spicy soy sauce.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                     </div>
-                    <div class="section-menu-item">
-                        <ul>
-                            <li>
-                                <div class="common-icon-button">
-                                  <button> <span> NPR. <br>1255</span> </button>
-                                </div>
-                            </li>
-                            <li>
-                                <h5>tom kha gai</h5>
-                                <p>Aromatic chicken soup rich with coconut milk and flavored with galanga, lime leaves.</p>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <div class="common-icon-button">
-                                  <button> <span> NPR. <br>1255</span> </button>
-                                </div>
-                            </li>
-                            <li>
-                                <h5>steamed dumpling</h5>
-                                <p>Stuffed with shrimp, crabmeat, chicken, shitake mushroom served with spicy soy sauce.</p>
-                            </li>
-                        </ul>
-                    </div>
+                   
                 </div>
-                <div class="column-2">
+                <div class="column-2 ani-sequence">
                     <div class="background-color">
                         <div class="main-image-container">
                             <img src="assets/img/slider/slider-1.jpg" alt="main-image">
@@ -296,11 +369,13 @@
         </div>
     </section>
 
+
+
     <div class="feature-section">
         <div class="custom-container">
-            <div class="feature-container">
+            <div class="feature-container animation-area">
                 <div class="column-1">
-                    <div class="image-container">
+                    <div class="image-container ani-sequence">
                         <img src="assets/img/gallery/rec-1.jpg" alt="">
                     </div>
                   
@@ -325,7 +400,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column-2">
+                <div class="column-2 ani-sequence">
                     <div class="common-section-subtitle">
                         <h2>restaurant & lounge bar</h2>
                     </div>
@@ -366,9 +441,10 @@
         </div>
     </div>
 
+
     <section class="service-section">
         <div class="custom-container">
-            <div class="service-container">
+            <div class="service-container animation-area">
                 <div class="common-section-subtitle line">
                    <span></span> <h2>what we do</h2> <span></span>
                 </div>
@@ -376,44 +452,46 @@
                     <h1>our services</h1>
                 </div>
                 <div class="section-content">
-                <div class="column-1">
-                    <div class="common-box-container left text-right">
-                        <h2>24h Front Desk</h2>
-                        <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                    <div class="column-1 animation-area1">
+                        <div class="common-box-container left text-right ani-sequence lefting">
+                            <h2>24h Front Desk</h2>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                        </div>
+                        <div class="common-box-container left text-right ani-sequence lefting">
+                            <h2>airport transfers</h2>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                        </div>
+                        <div class="common-box-container left text-right ani-sequence lefting">
+                            <h2>outdoor activities</h2>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                        </div>
                     </div>
-                    <div class="common-box-container left text-right">
-                        <h2>airport transfers</h2>
-                        <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                    <div class="column-2">
+                        <div class="image-container">
+                            <img src="assets/img/gallery/service.png" alt="">
+                        </div>
                     </div>
-                    <div class="common-box-container left text-right">
-                        <h2>outdoor activities</h2>
-                        <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                    <div class="column-1 animation-area2">
+                        <div class="common-box-container right ani-sequence righting">
+                            <h2>restaurant & bars </h2>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                        </div> 
+                        <div class="common-box-container right ani-sequence righting">
+                            <h2>live music show </h2>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                        </div>
+                        <div class="common-box-container right ani-sequence righting">
+                            <h2>15K per night stay</h2>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                        </div>
                     </div>
-                </div>
-                <div class="column-2">
-                    <div class="image-container">
-                        <img src="assets/img/gallery/service.png" alt="">
-                    </div>
-                </div>
-                <div class="column-1">
-                    <div class="common-box-container right  ">
-                        <h2>restaurant & bars </h2>
-                        <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
-                    </div> 
-                    <div class="common-box-container right ">
-                        <h2>live music show </h2>
-                        <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
-                    </div>
-                    <div class="common-box-container right  ">
-                        <h2>15K per night stay</h2>
-                        <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
-                    </div>
-                </div>
                 </div>
                 
             </div>
         </div>
     </section>
+
+
 </div>
 
 
