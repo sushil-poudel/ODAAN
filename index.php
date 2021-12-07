@@ -16,12 +16,11 @@ $f12:40px;
 $f13:42px;
 $f14:44px;
 
-
 <div id="homepage">
     <section class="common-banner-section">
         <div class="common-banner-slider">
             <div class="banner-item">
-                <div class="image-container" style="background-image: url('assets/img/slider/slider-2.jpg')">
+                <div class="image-container animation-scale" style="background-image: url('assets/img/slider/slider-2.jpg')">
                     <div class="custom-container">
                         <div class="inner">
                             <div class="banner-content">
@@ -80,7 +79,8 @@ $f14:44px;
                 
             </div>
         </div> -->
-        <section class="search-section">
+
+        <section class="common-search-section">
             <div class="custom-container">
                 <div class="search-container">
                     <div class="section-title">
@@ -111,17 +111,17 @@ $f14:44px;
  
     <section class="display-room-section">
         <div class="custom-container">
-            <div class="display-room-container">
+            <div class="display-room-container animation-area3">
                 <div class="section-heading-container">
-                    <div class="common-section-subtitle">
-                        <h2>elegant hotel</h2> 
+                    <div class="common-section-subtitle line">
+                        <span></span> <h2>elegant hotel</h2> <span></span>
                     </div>
                     <div class="common-section-title">
                         <h1> enjoy your stay in odaan</h1>    
                     </div>
                 </div>
-                <div class="card-container">
-                    <div class="card-item">
+                <div class="card-container ani-sequence">
+                    <div class="card-item ">
                         <div class="row1-container">
                             <div class="image-container">
                                 <img src="assets/img/slider/slider-2.jpg" alt="">
@@ -140,16 +140,33 @@ $f14:44px;
                         </div>
                         <div class="row3-container">
                             <ul>
-                                <li><img src="assets/img/icon/bedroom icon.png" alt=""> </li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bedroom icon.png" alt=""> 
+                                    </div>
+                                </li>
                                 <li class="text">1 Bed</li>
 
-                                <li><img src="assets/img/icon/guest icon.png" alt=""></li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/guest icon.png" alt="">
+                                    </div>
+                                   
+                                </li>
                                 <li class="text"> 2 Guests </li>
                          
-                                <li><div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bathroom icon .png" alt="">
+                                    </div>
+                                </li>
                                 <li class="text">Hot Water</li>
                          
-                                <li><img src="assets/img/icon/Ac icon.png" alt=""> </li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/Ac icon.png" alt="">
+                                    </div>  
+                                </li>
                                 <li class="text">Ac</li>
                             </ul>
                         </div>
@@ -173,21 +190,38 @@ $f14:44px;
                         </div>
                         <div class="row3-container">
                             <ul>
-                                <li><img src="assets/img/icon/bedroom icon.png" alt=""> </li>
-                               <li class="text">1 Bed</li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bedroom icon.png" alt=""> 
+                                    </div>
+                                </li>
+                                <li class="text">1 Bed</li>
 
-                                <li><img src="assets/img/icon/guest icon.png" alt=""></li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/guest icon.png" alt="">
+                                    </div>
+                                   
+                                </li>
                                 <li class="text"> 2 Guests </li>
                          
-                                <li><div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </li>
-                               <li class="text">Hot Water</li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bathroom icon .png" alt="">
+                                    </div>
+                                </li>
+                                <li class="text">Hot Water</li>
                          
-                                <li><img src="assets/img/icon/Ac icon.png" alt=""> </li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/Ac icon.png" alt="">
+                                    </div>  
+                                </li>
                                 <li class="text">Ac</li>
                             </ul>
                         </div>
                     </div>  
-                    <div class="card-item">
+                    <div class="card-item ">
                         <div class="row1-container">
                             <div class="image-container">
                                 <img src="assets/img/slider/slider-2.jpg" alt="">
@@ -206,16 +240,33 @@ $f14:44px;
                         </div>
                         <div class="row3-container">
                             <ul>
-                                <li><img src="assets/img/icon/bedroom icon.png" alt=""> </li>
-                               <li class="text">1 Bed</li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bedroom icon.png" alt=""> 
+                                    </div>
+                                </li>
+                                <li class="text">1 Bed</li>
 
-                                <li><img src="assets/img/icon/guest icon.png" alt=""></li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/guest icon.png" alt="">
+                                    </div>
+                                   
+                                </li>
                                 <li class="text"> 2 Guests </li>
                          
-                                <li><div class="image-container"><img src="assets/img/icon/bathroom icon .png" alt=""> </li>
-                               <li class="text">Hot Water</li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bathroom icon .png" alt="">
+                                    </div>
+                                </li>
+                                <li class="text">Hot Water</li>
                          
-                                <li><img src="assets/img/icon/Ac icon.png" alt=""> </li>
+                                <li>
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/Ac icon.png" alt="">
+                                    </div>  
+                                </li>
                                 <li class="text">Ac</li>
                             </ul>
                         </div>
@@ -230,7 +281,7 @@ $f14:44px;
             <div class="menu-container animation-area">
                 <div class="column-1 ani-sequence ">
                     <div class="common-section-subtitle">
-                        <h2>explore our menus</h2>
+                        <h2>explore our food</h2>
                     </div>
                     <div class="common-section-title">
                         <h1>odaan cafe surprises</h1>
@@ -250,7 +301,7 @@ $f14:44px;
                                     <ul>
                                         <li>
                                             <div class="common-icon-button">
-                                            <button> <span> NPR. <br>1255</span> </button>
+                                                <button> <span> NPR. <br>1255</span> </button>
                                             </div>
                                         </li>
                                         <li>
@@ -369,13 +420,11 @@ $f14:44px;
         </div>
     </section>
 
-
-
     <div class="feature-section">
         <div class="custom-container">
             <div class="feature-container animation-area">
-                <div class="column-1">
-                    <div class="image-container ani-sequence">
+                <div class="column-1 ani-sequence">
+                    <div class="image-container ">
                         <img src="assets/img/gallery/rec-1.jpg" alt="">
                     </div>
                   
@@ -441,7 +490,6 @@ $f14:44px;
         </div>
     </div>
 
-
     <section class="service-section">
         <div class="custom-container">
             <div class="service-container animation-area">
@@ -491,9 +539,7 @@ $f14:44px;
         </div>
     </section>
 
-
 </div>
-
 
 
 <?php include('footer.php')?>
