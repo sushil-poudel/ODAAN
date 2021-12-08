@@ -273,7 +273,7 @@
 }
 
 #homepage .display-room-section .custom-container .display-room-container .card-container .card-item:not(:last-of-type) {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row1-container {
@@ -308,6 +308,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row2-container ul li {
@@ -331,6 +333,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row3-container ul li {
@@ -527,6 +531,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  margin-right: 100px;
 }
 
 #homepage .feature-section .custom-container .feature-container .column-1 .image-container {
@@ -552,7 +557,7 @@
   border-radius: 0 20px 20px 20px;
   position: absolute;
   left: 33%;
-  bottom: 34%;
+  bottom: 20%;
   padding: 10px 30px;
 }
 
@@ -567,6 +572,7 @@
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 3px solid #00A8FF;
+  padding-left: 0;
 }
 
 #homepage .feature-section .custom-container .feature-container .column-1 .like-container ul li:nth-of-type(1) {
@@ -612,6 +618,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -875,23 +882,23 @@
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .title-container h1 {
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .subtitle-container-1 h2 {
-  font-size: 38px;
+  font-size: 28px;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .subtitle-container-2 h3 {
-  font-size: 38px;
+  font-size: 28px;
   text-transform: capitalize;
   font-weight: bold;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .content-container p {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .images-container {
@@ -915,14 +922,14 @@
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .rules-container h4 {
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 500;
   text-transform: capitalize;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .rules-container ul li {
   margin-bottom: 10px;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-1 .rules-container ul li i {
@@ -936,7 +943,7 @@
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-2 .title-container h2 {
-  font-size: 42px;
+  font-size: 32px;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
@@ -944,7 +951,7 @@
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form label {
-  font-size: 26px;
+  font-size: 24px;
   color: #1ACE75;
   font-weight: 500;
   text-transform: uppercase;
@@ -985,19 +992,19 @@
 #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form h2 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 42px;
+  font-size: 32px;
   text-align: center;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form h3 {
   text-transform: capitalize;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 500;
   text-align: center;
 }
 
 #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form h1 {
-  font-size: 52px;
+  font-size: 42px;
   text-transform: uppercase;
   color: #FE393E;
   text-align: center;
@@ -1122,7 +1129,7 @@
 
 #gallery-page .gallery-section .custom-container .gallery-container .filter-title-container h2 {
   margin: 0;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   text-transform: uppercase;
   background-color: #E5E5E5;
@@ -1373,7 +1380,7 @@
 }
 
 #contact-page .contact-section .custom-container .contact-container .contact-us-container .heading-container P {
-  font-size: 26px;
+  font-size: 24px;
   padding: 60px 0;
   letter-spacing: 0.4px;
 }
@@ -1872,7 +1879,7 @@
 }
 
 .common-room-type-container .column-1 .image-slider .image-item .image-container img {
-  height: 806px;
+  height: 806px !important;
 }
 
 .common-room-type-container .column-2 {
@@ -1924,19 +1931,32 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 40px;
 }
 
 .common-facilities-container ul li {
   font-size: 24px;
 }
 
-.common-facilities-container ul li img {
+.common-facilities-container ul li .image-container {
   height: 55px;
-  width: 82px;
+  width: 55px;
+}
+
+.common-facilities-container ul li .image-container img {
+  height: auto !important;
 }
 
 .common-facilities-container ul li:not(:last-of-type) {
   margin-right: 30px;
+}
+
+.common-facilities-container ul li:nth-of-type(2) {
+  margin-right: 50px;
+}
+
+.common-facilities-container ul li:nth-of-type(4) {
+  margin-right: 50px;
 }
 
 .common-facilities-container h4 {
@@ -2331,6 +2351,41 @@
   right: 0;
   -webkit-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
+}
+
+@-webkit-keyframes pulse-popup {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-popup {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.pulse-animation {
+  -webkit-animation: pulse-popup 1.3s ease-in-out infinite both;
+          animation: pulse-popup 1.3s ease-in-out infinite both;
 }
 
 /*---------------------------------- animation ends ----------------------------------*/

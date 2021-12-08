@@ -58,46 +58,58 @@
                        
                         <div class="common-facilities-container">
                             <h2>amenities</h2>
-                             <ul>
+                            <ul>
                                 <li>
-                                    <img src="assets/img/icon/bedroom icon.png" alt="">
-                                
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bedroom icon.png" alt="">
+                                    </div>
                                 </li>
                                 <li>
                                     1 bed 
                                 </li>
 
                                 <li>
-                                    <img src="assets/img/icon/guest icon.png" alt=""> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/guest icon.png" alt=""> 
+                                    </div>  
                                 </li>
                                 <li>
                                     2 guests 
                                 </li>
+
+
                                 <li> 
-                                    <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                    </div>  
                                 </li>
                                 <li>
                                     hot water
                                 </li>
                             </ul>
+
+
                             <ul>
                                 <li> 
-                                    <img src="assets/img/icon/ac-color.png" alt="">
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/ac-color.png" alt="">     
+                                    </div>  
                                 </li>
-
                                 <li>
                                     ac
                                 </li>
 
-                                <li> 
-                                    <img src="assets/img/icon/wifi.png" alt=""> 
-                                </li>
 
+                                <li> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/wifi.png" alt="">
+                                    </div>
+                                </li>
                                 <li>
                                     free wifi
                                 </li>  
                             </ul>
-                         
+                
                         </div>
                         <h4>book suite</h4>
                     </div>
@@ -130,46 +142,59 @@
                         <p>We offer deluxe room with king size bed and well equipped with all the facilities and equipments you need for a comfortable stay.</p>
                         <div class="common-facilities-container">
                             <h2>amenities</h2>
-                             <ul>
+                            <ul>
                                 <li>
-                                    <img src="assets/img/icon/bedroom icon.png" alt="">
-                                
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bedroom icon.png" alt="">
+                                    </div>
                                 </li>
                                 <li>
                                     1 bed 
                                 </li>
 
+
                                 <li>
-                                    <img src="assets/img/icon/guest icon.png" alt=""> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/guest icon.png" alt=""> 
+                                    </div>  
                                 </li>
                                 <li>
                                     2 guests 
                                 </li>
+
+
                                 <li> 
-                                    <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                    </div>  
                                 </li>
                                 <li>
                                     hot water
                                 </li>
                             </ul>
+
+
                             <ul>
                                 <li> 
-                                    <img src="assets/img/icon/ac-color.png" alt="">
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/ac-color.png" alt="">     
+                                    </div>  
                                 </li>
-
                                 <li>
                                     ac
                                 </li>
 
-                                <li> 
-                                    <img src="assets/img/icon/wifi.png" alt=""> 
-                                </li>
 
+                                <li> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/wifi.png" alt="">
+                                    </div>
+                                </li>
                                 <li>
                                     free wifi
                                 </li>  
                             </ul>
-                         
+                            <h4>see more amenities</h4>
                         </div>
                         
                         <h4>book suite</h4>
@@ -202,46 +227,59 @@
                         <p>We offer deluxe room with king size bed and well equipped with all the facilities and equipments you need for a comfortable stay.</p>
                         <div class="common-facilities-container">
                             <h2>amenities</h2>
-                             <ul>
+                            <ul>
                                 <li>
-                                    <img src="assets/img/icon/bedroom icon.png" alt="">
-                                
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bedroom icon.png" alt="">
+                                    </div>
                                 </li>
                                 <li>
                                     1 bed 
                                 </li>
 
+
                                 <li>
-                                    <img src="assets/img/icon/guest icon.png" alt=""> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/guest icon.png" alt=""> 
+                                    </div>  
                                 </li>
                                 <li>
                                     2 guests 
                                 </li>
+
+
                                 <li> 
-                                    <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/bathroom icon .png" alt=""> 
+                                    </div>  
                                 </li>
                                 <li>
                                     hot water
                                 </li>
                             </ul>
+
+
                             <ul>
                                 <li> 
-                                    <img src="assets/img/icon/ac-color.png" alt="">
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/ac-color.png" alt="">     
+                                    </div>  
                                 </li>
-
                                 <li>
                                     ac
                                 </li>
 
-                                <li> 
-                                    <img src="assets/img/icon/wifi.png" alt=""> 
-                                </li>
 
+                                <li> 
+                                    <div class="image-container">
+                                        <img src="assets/img/icon/wifi.png" alt="">
+                                    </div>
+                                </li>
                                 <li>
                                     free wifi
                                 </li>  
                             </ul>
-                         
+                            <h4>see more amenities</h4>
                         </div>
                         <h4>book suite</h4>
                     </div>

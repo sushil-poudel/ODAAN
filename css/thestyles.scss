@@ -192,7 +192,7 @@ $f14:44px;
             background-color: $white-color;
             width: 33.33%;
             &:not(:last-of-type){
-              margin-right: 30px;
+              margin-right: 50px;
             }
             .row1-container{
               position: relative;
@@ -219,6 +219,8 @@ $f14:44px;
               display: flex;
               align-items: center;
               justify-content: space-between;
+              margin: 0;
+              padding: 0;
               li{
                 color:$red;
                 font-size: $f4;
@@ -234,6 +236,8 @@ $f14:44px;
               padding:0 30px;
               ul{
                 display: flex;
+                margin: 0;
+                padding: 0;
                 li{
                   font-size: $f2;
                   &:not(:last-of-type){
@@ -401,6 +405,7 @@ $f14:44px;
           justify-content: space-between;
           align-items: center;
           position: relative;
+          margin-right: 100px;
           .image-container{
             height:540px;
             width: 308px;
@@ -422,7 +427,7 @@ $f14:44px;
             border-radius: 0 20px 20px 20px;
             position: absolute;
             left: 33%;
-            bottom: 34%;
+            bottom: 20%;
             // height: 183px;
             // width: 432px;
             padding:10px 30px;
@@ -431,7 +436,7 @@ $f14:44px;
               justify-content: space-between;
               align-items: center;
               border-bottom: 3px solid $dark-blue;
-              
+              padding-left: 0;
               li:nth-of-type(1){
                 color:$red;
                 font-size: $f1;
@@ -476,7 +481,7 @@ $f14:44px;
             .sub-column-1{
               ul{
                 display: flex;
-               
+                padding-left: 0;
                 align-items: center;
                 li:nth-of-type(1){
                   .image-container{
@@ -673,7 +678,7 @@ $f14:44px;
          
           .title-container{
             h1{
-              font-size: 42px;
+              font-size: $f13;
               font-weight: 500;
               text-transform: uppercase;
               position:relative;
@@ -699,14 +704,14 @@ $f14:44px;
             .menu-item-container{
               .menu-title-container{
                 h3{
-                  font-size: 28px;
+                  font-size: $f6;
                   font-weight: 500;
                   text-transform: uppercase;
                 }
               }
               .menu-subtitle-container{
                 h4{
-                  font-size: 20px;
+                  font-size: $f2;
                   font-weight: 500;
                   text-transform: uppercase;
                   color: $green-color;
@@ -714,7 +719,7 @@ $f14:44px;
                 }
               }
               .price-container{
-                font-size: 28px;
+                font-size: $f6;
                 text-transform: uppercase;
                 span{
                   color:$gray-color;
@@ -727,14 +732,14 @@ $f14:44px;
             .menu-item-container{
               .menu-title-container{
                 h3{
-                  font-size: 28px;
+                  font-size: $f6;
                   font-weight: 500;
                   text-transform: uppercase;
                 }
               }
               .menu-subtitle-container{
                 h4{
-                  font-size: 20px;
+                  font-size: $f2;
                   font-weight: 500;
                   text-transform: uppercase;
                   color: $green-color;
@@ -742,7 +747,7 @@ $f14:44px;
                 }
               }
               .price-container{
-                font-size: 28px;
+                font-size: $f6;
                 text-transform: uppercase;
                 span{
                   color:$gray-color;
@@ -788,7 +793,7 @@ $f14:44px;
           margin-right:100px;
           .title-container{
             h1{
-              font-size: 52px;
+              font-size:$f13;
               font-weight: 600;
               text-transform: uppercase;
 
@@ -796,19 +801,19 @@ $f14:44px;
           }
           .subtitle-container-1{
             h2{
-              font-size: 38px;
+              font-size: $f6;
             }
           }
           .subtitle-container-2{
             h3{
-              font-size: 38px;
+              font-size: $f6;
               text-transform: capitalize;
               font-weight: bold;
             }
           }
           .content-container{
             p{
-              font-size: 26px;
+              font-size:$f4;
             }
           }
           .images-container{
@@ -827,7 +832,7 @@ $f14:44px;
           }
           .rules-container{
             h4{
-              font-size: 42px;
+              font-size: $f7;
               font-weight: 500;
               text-transform: capitalize;
 
@@ -836,7 +841,7 @@ $f14:44px;
             ul{
               li{
                 margin-bottom: 10px;
-                font-size: 26px;
+                font-size: $f4;
                 i{
                   color: $green-color;
 
@@ -851,7 +856,7 @@ $f14:44px;
           padding: 70px 50px;
           .title-container{
             h2{
-              font-size: 42px;
+              font-size: $f10;
               text-transform: uppercase;
               font-weight: 500;
               text-align: center;
@@ -861,7 +866,7 @@ $f14:44px;
           .form-container{
             form{
               label{
-                  font-size: 26px;
+                  font-size: $f4;
                   color:$green-color;
                   font-weight: 500;
                   text-transform: uppercase; 
@@ -885,7 +890,7 @@ $f14:44px;
                 width: 80%;      
                 margin:50px 0;
                 padding:22px;
-               font-size: 24px;
+               font-size: $f4;
                font-weight: 600;
                border:1px solid #B8B8B8;
               }
@@ -897,17 +902,17 @@ $f14:44px;
               h2{
                 text-transform: uppercase;
                 font-weight: 500;
-                font-size: 42px;
+                font-size: $f7;
                 text-align: center;
               }
               h3{
                 text-transform: capitalize;
-                font-size: 42px;
+                font-size: $f10;
                 font-weight: 500;
                 text-align: center;
               }
               h1{
-                font-size: 52px;
+                font-size: $f13;
                 text-transform: uppercase;
                 color:$red;
                 text-align: center;
@@ -1042,13 +1047,13 @@ $f14:44px;
    .custom-container{
      .gallery-container{
       .heading-container{
-                h1{
-                  font-size: 42px;
-                  font-weight: 600;
-                  text-transform: uppercase;
-                  text-align: center;
-                  line-height: 1.5;
-                }
+        h1{
+          font-size: $f13;
+          font-weight: 600;
+          text-transform: uppercase;
+          text-align: center;
+          line-height: 1.5;
+        }
       }
       .filter-title-container{
         display: flex;
@@ -1058,7 +1063,7 @@ $f14:44px;
       
         h2{
           margin:0;
-          font-size: 30px;
+          font-size: $f4;
           font-weight: 500;
           text-transform: uppercase;
           background-color: #E5E5E5;
@@ -1109,13 +1114,13 @@ $f14:44px;
               padding: 40px 20px;
               transition: all 0.5s ease-out ;
               h2{
-                font-size: 26px;
+                font-size: $f5;
                 font-weight: 600;
                 color:$white-color;
                 text-transform: uppercase;
               }
               p{
-                font-size: 24px;
+                font-size: $f4;
               }
             }
           }
@@ -1146,13 +1151,13 @@ $f14:44px;
                 padding: 40px 20px;
                 transition: all 0.5s ease-out ;
                 h2{
-                  font-size: 26px;
+                  font-size: $f5;
                   font-weight: 600;
                   color:$white-color;
                   text-transform: uppercase;
                 }
                 p{
-                  font-size: 24px;
+                  font-size: $f4;
                 }
               }
             }
@@ -1179,13 +1184,13 @@ $f14:44px;
                 padding: 40px 20px;
                 transition: all 0.5s ease-out ;
                 h2{
-                  font-size: 26px;
+                  font-size: $f5;
                   font-weight: 600;
                   color:$white-color;
                   text-transform: uppercase;
                 }
                 p{
-                  font-size: 24px;
+                  font-size: $f4;
                 }
               }
             }
@@ -1218,13 +1223,13 @@ $f14:44px;
                 padding: 40px 20px;
                 transition: all 0.5s ease-out ;
                 h2{
-                  font-size: 26px;
+                  font-size: $f5;
                   font-weight: 600;
                   color:$white-color;
                   text-transform: uppercase;
                 }
                 p{
-                  font-size: 24px;
+                  font-size: $f4;
                 }
               }
             }
@@ -1252,13 +1257,13 @@ $f14:44px;
                 transition: all 0.5s ease-out ;
          
                 h2{
-                  font-size: 26px;
+                  font-size: $f5;
                   font-weight: 600;
                   color:$white-color;
                   text-transform: uppercase;
                 }
                 p{
-                  font-size: 24px;
+                  font-size: $f4;
                 }
               }
             }
@@ -1311,7 +1316,7 @@ $f14:44px;
                     color: $white-color;
                 }
                 P{
-                    font-size:26px;
+                    font-size:$f4;
                     padding:60px 0;
                     letter-spacing: 0.4px;
                 }
@@ -1326,13 +1331,13 @@ $f14:44px;
                     
                    }
                    .text{
-                    font-size:24px;
+                    font-size:$f4;
                     width: 95%;
                     
                     
                    
                     h6{
-                        font-size:28px;
+                        font-size:$f6;
                         padding-bottom:15px;
                         color: $white-color;
                         text-transform: uppercase;
@@ -1356,14 +1361,14 @@ $f14:44px;
                         
                         margin:50px 0;
                         padding:22px;
-                       font-size: 24px;
+                       font-size: $f4;
                        font-weight: 600;
                        border:1px solid #B8B8B8;
                     }
                 }
                 button{
                     width: 100%;
-                    font-size:24px;
+                    font-size:$f4;
                     background-color:$green-color ;
                     color:white;
                     padding:22px 0;
@@ -1469,12 +1474,12 @@ $f14:44px;
         justify-content: space-between;
         align-items: center;
         .copyright-left{
-          font-size: 24px;
+          font-size:$f4;
           color: $white-color;
           text-transform: uppercase;
         }
         .copyright-right{
-          font-size: 24px;
+          font-size: $f4;
           color: $white-color;
           text-transform: uppercase;
         }
@@ -1797,9 +1802,9 @@ justify-content: space-between;
     .image-slider{
       .image-item{
         .image-container{
-       
+        
           img{
-            height: 806px;
+            height: 806px !important ;
           }
         }
       }
@@ -1846,15 +1851,24 @@ justify-content: space-between;
   ul{
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
     li{
       font-size: $f4;
-      img{
+      .image-container{
         height: 55px;
-        width: 82px;
-     
+        width: 55px;
+        img{
+          height: auto !important;
+        }
       }
       &:not(:last-of-type){
         margin-right: 30px;
+      }
+      &:nth-of-type(2){
+        margin-right: 50px;
+      }
+      &:nth-of-type(4){
+        margin-right: 50px;
       }
     }
   }
@@ -2155,40 +2169,25 @@ justify-content: space-between;
   }
 }
 
-// @keyframes increase{
-//   0%{
-//     height: 890px;
-//     transition-delay: 1s;
-//   }
-//   25%{
-//     height: 900px;
-//     transition-delay: 1s;
-//   }
-//   50%{
-//     height: 950px;
-//     transition-delay: 1s;
-//   }
-//   75%{
-//     height: 990px;
-//     transition-delay: 1s;
-//   }
-//   100%{
-//     height: 1000px;
-//     transition-delay: 1s;
-//     transform: scale(1.1);
-//   }
-// }
-// .animation-scale{
+@keyframes pulse-popup{
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.8);
+  }
+  
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 
-//     animation-name: increase;
-//     animation-duration: 5s;
-//     // height: 1000px;
-//     transition: all 1s ease;
-//     animation-iteration-count: infinite;
-
-
-// }
-
+.pulse-animation{
+  animation: pulse-popup 1.3s ease-in-out infinite both;
+}
 
 
 

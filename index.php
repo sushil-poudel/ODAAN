@@ -1,21 +1,6 @@
 <?php include('header.php')?>
 
 
-$f1:18px;
-$f2:20px;
-$f3:22px;
-$f4:24px;
-$f5:26px;
-$f6:28px;
-$f7:32px;
-$f8:34px;
-$f9:36px;
-$f10:32px;
-$f11:38px;
-$f12:40px;
-$f13:42px;
-$f14:44px;
-
 <div id="homepage">
     <section class="common-banner-section">
         <div class="common-banner-slider">
@@ -462,25 +447,25 @@ $f14:44px;
                     <div class="row">
                         <div class="sub-column-1">
                             <ul>
-                                <li>  <div class="image-container"><img src="assets/img/icon/food icon.png" alt=""></div> </li>
+                                <li>  <div class="image-container pulse-animation"><img src="assets/img/icon/food icon.png" alt=""></div> </li>
                                 <li>fresh healthy food </li>
                             </ul>
                             <ul>
-                                <li> <div class="image-container"><img src="assets/img/icon/discount.png" alt=""></div> </li>
+                                <li> <div class="image-container pulse-animation"><img src="assets/img/icon/discount.png" alt=""></div> </li>
                                 <li>discount voucher</li>
                             </ul>
                             <ul>
-                                <li> <div class="image-container"><img src="assets/img/icon/music.png" alt=""></div> </li>
+                                <li> <div class="image-container pulse-animation"><img src="assets/img/icon/music.png" alt=""></div> </li>
                                 <li>live music show</li>
                             </ul>
                         </div>
                         <div class="sub-column-2">
                             <ul>
-                                <li> <div class="image-container"><img src="assets/img/icon/service icon.png" alt=""></div> </li>
+                                <li> <div class="image-container pulse-animation"><img src="assets/img/icon/service icon.png" alt=""></div> </li>
                                 <li>on time service </li>
                             </ul>
                             <ul>
-                                <li> <div class="image-container"><img src="assets/img/icon/bar icon.png" alt=""></div> </li>
+                                <li> <div class="image-container pulse-animation"><img src="assets/img/icon/bar icon.png" alt=""></div> </li>
                                 <li>luxurious lounge bar </li>
                             </ul>
                         </div>

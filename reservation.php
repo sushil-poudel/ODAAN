@@ -32,7 +32,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="room-details-section">
@@ -70,46 +69,60 @@
                     <div class="common-facilities-container">
                         <h2>amenities</h2>
                         <ul>
-                                <li>
+                            <li>
+                                <div class="image-container">
                                     <img src="assets/img/icon/bedroom icon.png" alt="">
-                                
-                                </li>
-                                <li>
-                                    1 bed 
-                                </li>
+                                </div>
+                            </li>
+                            <li>
+                                1 bed 
+                            </li>
 
-                                <li>
+
+                            <li>
+                                <div class="image-container">
                                     <img src="assets/img/icon/guest icon.png" alt=""> 
-                                </li>
-                                <li>
-                                    2 guests 
-                                </li>
-                                <li> 
+                                </div>  
+                            </li>
+                            <li>
+                                2 guests 
+                            </li>
+
+
+                            <li> 
+                                <div class="image-container">
                                     <img src="assets/img/icon/bathroom icon .png" alt=""> 
-                                </li>
-                                <li>
-                                    hot water
-                                </li>
-                            </ul>
-                            <ul>
-                                <li> 
-                                    <img src="assets/img/icon/ac-color.png" alt="">
-                                </li>
+                                </div>  
+                            </li>
+                            <li>
+                                hot water
+                            </li>
+                        </ul>
 
-                                <li>
-                                    ac
-                                </li>
 
-                                <li> 
-                                    <img src="assets/img/icon/wifi.png" alt=""> 
-                                </li>
+                        <ul>
+                            <li> 
+                                <div class="image-container">
+                                    <img src="assets/img/icon/ac-color.png" alt="">     
+                                </div>  
+                            </li>
+                            <li>
+                                ac
+                            </li>
 
-                                <li>
-                                    free wifi
-                                </li>  
-                            </ul>
-                            <h4>see more amenities</h4>
+
+                            <li> 
+                                <div class="image-container">
+                                    <img src="assets/img/icon/wifi.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                free wifi
+                            </li>  
+                        </ul>
+                        <h4>see more amenities</h4>
                     </div>
+                    
                     <div class="rules-container">
                         <h4>house rules </h4>
                     
@@ -165,7 +178,6 @@
             </div>
         </div>
     </section>
-
 
 
 </div>
