@@ -194,7 +194,7 @@
                                     free wifi
                                 </li>  
                             </ul>
-                            <h4>see more amenities</h4>
+                    
                         </div>
                         
                         <h4>book suite</h4>
@@ -279,7 +279,7 @@
                                     free wifi
                                 </li>  
                             </ul>
-                            <h4>see more amenities</h4>
+                        
                         </div>
                         <h4>book suite</h4>
                     </div>

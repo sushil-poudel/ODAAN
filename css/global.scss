@@ -78,10 +78,12 @@ a{
   margin: auto;
   position: relative;
   .small-width-container{
-    max-width: 1200px;
+    padding: 80px 100px;
+    max-width: 1600px;
   }
   .small-medium-container{
-    max-width: 1500px;
+    padding: 80px 100px;
+    max-width: 1400px;
   }
   &.no-top-bottom-padding{
     padding-top: 40px;

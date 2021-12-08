@@ -48,15 +48,212 @@
 
 /*--------------------------------------- Mixins Ends -------------------------------------*/
 @media all and (max-width: 1799px) {
+  .custom-container {
+    padding: 60px 80px;
+  }
   /*------------------------------------ Site Wide Starts -----------------------------------*/
   /*------------------------------------- Site Wide Ends ------------------------------------*/
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper .custom-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .logo-container {
+    height: 120px;
+    width: 120px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li:not(:last-of-type) {
+    margin-right: 50px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li > a {
+    font-size: 18px;
+    color: #fff;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li > a:hover {
+    text-decoration: none;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own {
+    background-color: #2e2e2e;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own > li {
+    padding: 25px 12px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own > li > a {
+    font-size: 18px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul .common-button-container a button {
+    height: 60px;
+    width: 250px;
+    border-radius: 50px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul .common-button-container a button i {
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  #header-wrapper.nav-scroll {
+    position: fixed;
+    background-color: #2d2e3182;
+    -webkit-animation: slide-down 0.7s;
+            animation: slide-down 0.7s;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #homepage .display-room-section .custom-container {
+    padding: 80px;
+  }
+  #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row1-container .text-container h3 {
+    top: 3%;
+    left: 2%;
+    font-size: 18px;
+  }
+  #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row2-container {
+    padding: 20px 10px 0 10px;
+  }
+  #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row2-container ul li {
+    font-size: 18px;
+  }
+  #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row3-container {
+    padding: 20px 10px;
+  }
+  #homepage .display-room-section .custom-container .display-room-container .card-container .card-item .row3-container ul li {
+    font-size: 16px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 {
+    margin-right: 150px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 .text-container p {
+    font-size: 18px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 .menu-title h2 {
+    font-size: 26px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 .section-accordion ul li .uk-accordion-title {
+    font-size: 18px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 .section-accordion ul li .uk-accordion-content .section-menu-item ul li .common-icon-button button {
+    padding: 20px;
+    margin-right: 30px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 .section-accordion ul li .uk-accordion-content .section-menu-item ul li .common-icon-button button span {
+    font-size: 18px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 .section-accordion ul li .uk-accordion-content .section-menu-item ul li h5 {
+    font-size: 26px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-1 .section-accordion ul li .uk-accordion-content .section-menu-item ul li p {
+    font-size: 18px;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-2 .background-color .main-image-container {
+    top: -69%;
+    left: 8%;
+  }
+  #homepage .menu-section .custom-container .menu-container .column-2 .background-color h5 {
+    font-size: 16px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-1 {
+    margin-right: 30px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-1 .image-container {
+    height: 481px;
+    width: 274px;
+    margin-right: 20px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-1 .like-container ul li:nth-of-type(1) {
+    font-size: 16px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-1 .like-container ul li:nth-of-type(3) {
+    font-size: 18px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-1 .like-container .common-button-container a button {
+    font-size: 18px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-2 .text-container p {
+    font-size: 18px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-1 ul li:nth-of-type(2) {
+    font-size: 18px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-2 ul li:nth-of-type(2) {
+    font-size: 18px;
+  }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-button-container a button {
+    text-transform: uppercase;
+    background-color: #1ACE75;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+  }
+  .common-banner-section {
+    margin-bottom: 140px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container {
+    height: 110vh;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content {
+    top: 142%;
+    right: 7%;
+    left: 0;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-title h1 {
+    letter-spacing: 0.25em;
+    font-size: 160px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner span {
+    width: 300px;
+    height: 5px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner span:after {
+    content: '';
+    bottom: 10px;
+    width: 300px;
+    height: 1px;
+    left: 0;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner .thick {
+    height: 1px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner .thick:after {
+    height: 5px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner p {
+    font-size: 32px;
+    padding: 19px 34px 0 30px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content p {
+    font-size: 32px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .icon-container i {
+    font-size: 34px;
+    bottom: -15%;
+  }
+  .common-search-section {
+    width: 1267px;
+  }
+  .common-search-section .custom-container .search-container .section-title h2 {
+    font-size: 18px;
+  }
+  .common-search-section .custom-container .search-container .form-container .form-inputs .form-input {
+    height: 52px;
+    width: 217px;
+  }
+  .common-search-section .custom-container .search-container .form-container .form-inputs .form-input::-webkit-input-placeholder {
+    font-size: 18px;
+  }
+  .common-search-section .custom-container .search-container .form-container .form-inputs .form-input:-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .common-search-section .custom-container .search-container .form-container .form-inputs .form-input::-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .common-search-section .custom-container .search-container .form-container .form-inputs .form-input::placeholder {
+    font-size: 18px;
+  }
   /*------------------------------------ Components Ends ------------------------------------*/
   /*---------------------------------- Slick Slider Starts ----------------------------------*/
   /*----------------------------------- Slick Slider Ends -----------------------------------*/

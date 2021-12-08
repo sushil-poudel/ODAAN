@@ -1,6 +1,7 @@
 <?php include('header.php')?>
 
 
+
 <div id="homepage">
     <section class="common-banner-section">
         <div class="common-banner-slider">

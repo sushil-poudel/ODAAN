@@ -45,7 +45,7 @@
                             <div class="date-container">
                                 <span>15th <br> SEP.</span>
                             </div>
-                            <div class="tag-container">
+                            <div class="tag-container myBtn">
                                 <span><i class="bi bi-tag"></i></span>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                             <div class="date-container">
                                 <span>15th <br> SEP.</span>
                             </div>
-                            <div class="tag-container" id="myBtn">
+                            <div class="tag-container myBtn" >
                                 <span><i class="bi bi-tag"></i></span>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                             <div class="date-container">
                                 <span>15th <br> SEP.</span>
                             </div>
-                            <div class="tag-container">
+                            <div class="tag-container ">
                                 <span><i class="bi bi-tag"></i></span>
                             </div>
                         </div>

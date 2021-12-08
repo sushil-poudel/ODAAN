@@ -1,36 +1,582 @@
 @import "components/fonts_and_colors";
-$f1:18px;
-$f2:20px;
-$f3:22px;
-$f4:24px;
-$f5:26px;
-$f6:28px;
-$f7:32px;
-$f8:34px;
-$f9:36px;
-$f10:32px;
-$f11:38px;
-$f12:40px;
-$f13:42px;
-$f14:44px;
+
 
 @media all and (max-width: 1799px) {
+
+$f1:16px;
+
+$f2:16px;
+
+$f3:18px; 
+
+$f4:18px;
+
+$f5:26px;
+
+$f6:28px;
+
+$f7:32px;
+
+$f8:34px;
+
+$f9:36px;
+
+$f10:32px;
+
+$f11:32px;
+
+$f12:40px;
+
+$f13:42px;
+
+$f14:44px;
+
+.custom-container{
+  padding:60px 80px;
+}
   /*------------------------------------ Site Wide Starts -----------------------------------*/
  
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
- 
+  #header-wrapper{
+
+    .custom-container{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      &.no-top-bottom-padding{
+        .navbar-container{
+   
+          .logo-container{
+            height: 120px;
+            width: 120px;
+            a{
+              img{
+                
+              }
+            }
+          }
+          .nav-container{
+            .nav-content{
+              & >ul{
+               
+                & > li{
+             
+          
+                  &:not(:last-of-type){
+                    margin-right: 50px;
+                  }
+                  & > a{
+                    font-size: $f4;
+                    color:$white-color;
+                    &:hover{
+                      text-decoration: none;
+                    }
+                  }
+                  &.submenu-container{
+                
+                    &:hover{
+                      ul.dropdown-menu-own{
+                      
+                      }
+                    }
+                  }
+                  ul.dropdown-menu-own{
+                    
+                    
+                  
+                    background-color: #2e2e2e;
+                   
+                    & > li{
+                      padding: 25px 12px;
+               
+                      & > a{
+                   
+                        font-size:$f4;
+                        &:hover{
+               
+                        }
+  
+                      }
+                    }
+                  }
+                }
+                .common-button-container{
+              
+                  a{
+                    button{
+                      height: 60px;
+                      width: 250px;
+                      border-radius: 50px;
+                      i{
+                        
+                        border-radius: 50%;
+                        font-size: $f4;
+                      }
+                      &:hover{
+                    
+                      }
+                    }
+                  }
+                }
+              }
+            } 
+          }
+        }
+      }
+    }
+    &.nav-scroll{
+      position: fixed;
+    
+      background-color: #2d2e3182;
+      animation: slide-down 0.7s;
+      transition: all 0.5s ease-in-out;
+  
+    }
+  }
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #homepage{
+
+    .display-room-section{
+
+      .custom-container{
+        padding: 80px;
+        .display-room-container{
+          .section-heading-container{
+            .common-section-subtitle{
+          
+              h2{
+       
+
+     
+                &:after,&:before{
+              
+                }
+                &:after{
+
+                }
+                &:before{
+     
+                }
+              }
+            }
+            .common-section-title{
+         
+           
+            }
+          }
+          .card-container{
+     
+            .card-item{ 
+          
+              &:not(:last-of-type){
+       
+              }
+              .row1-container{
   
+                .image-container{
+                  img{
+      
+                  }
+                }
+                .text-container{
+                  h3{
+                 
+                    top:3%;
+                    left: 2%;
+                
+                    font-size: $f4;
+             
+                  }
+                }
+              }
+             .row2-container{
+              padding: 20px 10px 0 10px;
+              ul{
+            
+                li{
+            
+                  font-size: $f4;
+               
+                }
+             
+              }
+              }
+              .row3-container{
+                padding: 20px 10px;
+                ul{
+           
+                  li{
+                    font-size: $f2;
+                    &:not(:last-of-type){
+                
+                    }
+                    .image-container{
+         
+                      img{
+             
+                      }
+                    }
+                    &:nth-of-type(2){
+            
+                    }
+                    &:nth-of-type(4){
+            
+                    }
+                    &:nth-of-type(6){
+              
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .menu-section{
+      
+      .custom-container{
+        .menu-container{
+        
+          .column-1{
+            margin-right: 150px;
+            .text-container{
+              p{
+                font-size:$f4;
+              }
+            }
+            .menu-title{
+              h2{
+                font-size:$f5;
+            
+              }
+            }
+            .section-accordion{
+              ul{
+                li{
+            
+                  .uk-accordion-title{
+         
+                    font-size: $f4;
+         
+             
+                    &::before{
+
+                    }
+                  }
+                  .uk-accordion-content{
+               
+                    .section-menu-item{
+                      
+                      ul{
+                  
+                        
+                        li{
+                          .common-icon-button{
+                     
+                          button{
+                                   
+                            padding: 20px;
+                            margin-right: 30px;
+                            span{
+                              font-size: $f4;
+                            }
+                          }
+                          }
+                        }
+                        li{
+                   
+                          h5{
+                        
+                            font-size: $f5;
+                 
+                          }
+                          p{
+                            font-size: $f4;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+           
+          }
+          .column-2{
+            .background-color{
+        
+       
+              .main-image-container{
+           
+                top:-69%;
+                left: 8%;
+                
+            
+                img{
+               
+                }
+              }
+              .images-container{
+            
+             
+                .image-container{
+              
+                }
+              
+              }
+              h5{
+            
+              
+              
+                font-size: $f2;
+          
+              }
+            }
+          }
+        }
+      }
+    }
+    .feature-section{
+     
+      .custom-container{
+        .feature-container{
+          
+        
+          .column-1{
+            margin-right: 30px;
+            .image-container{
+              height: 481px;
+              width: 274px;
+              margin-right:20px;
+             
+              &.upper{
+            
+              img{
+       
+              }
+              }
+              img{
+        
+              }
+            
+            }
+            .like-container{
+         
+              
+              ul{
+              
+                li:nth-of-type(1){
+            
+                  font-size: $f1;
+                
+                }
+                li:nth-of-type(2){
+                  .image-container{
+                 
+                  }
+                }
+                li:nth-of-type(3){
+                
+                  font-size: $f4;
+           
+                }
+              }
+              .common-button-container{
+              a{
+                button{
+                 
+                  font-size: $f4;
+            
+              
+                }
+              }
+              }
+            }
+          }
+          .column-2{
+            .text-container{
+              p{
+                font-size: $f4;
+              }
+            }
+            .row{
+            
+              .sub-column-1{
+                ul{
+                 
+                  li:nth-of-type(1){
+                    .image-container{
+               
+                    }
+                  }
+                  li:nth-of-type(2){
+         
+                    font-size: $f3;
+              
+                  }
+                }
+              }
+              .sub-column-2{
+                ul{
+                 
+                  li:nth-of-type(1){
+                    .image-container{
+                      
+                    }
+                  }
+                  li:nth-of-type(2){
+                   
+                    font-size: $f3;
+             
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
 
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-button-container{
+    a{
+     button{
+      text-transform: uppercase;
+      background-color: #1ACE75;
+      border-style: none;
+      color: white;
+      font-size: $f4;
+    }
+   }
+  }
+  .common-banner-section{
+    margin-bottom: 140px;
+    .common-banner-slider {
+      .banner-item {
+        .image-container {
+          height: 110vh;
+         
+          .custom-container {
+      
+            .inner {
+             
+         
+           
+              .banner-content {
+              
+                top:142%;
+                right: 7%;
+                left: 0;
+                .section-title {
+                  h1 {
+               
+                    letter-spacing: 0.25em;
+                    font-size:160px;
+                  span{
+              
+                    }
+                  }
+                }
+  
+                .section-content-banner {
+                  span{
+            
+                    width: 300px;
+                    height: 5px;
+                
+                    
+                    &:after{
+                      content: '';
+                
+                      bottom: 10px;
+                      width: 300px;
+                      height: 1px;
+                      left:0;
+                    }
+                  }
+                  .thick{
+                    height: 1px;
+                    &:after{
+                      height: 5px;
+                    }
+                  }
+                 
+                  
+                  p{
+               
+                    font-size:$f11;
+                
+                    padding: 19px 34px 0 30px;
+                  }
+                 
+                }
+                .section-content{
+                 
+                  p{
+                    font-size: $f7;
+                 
+                  
+                  }
+                }
+                .icon-container{
+                  i{
+         
+                    font-size: $f8;
+               
+                    bottom: -15%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    } 
+  }
+  .common-search-section{
+    width: 1267px;
+
+
+    .custom-container{
+
+      .search-container{
+        
+        .section-title{
+          h2{
+       
+            font-size:$f4;
+     
+
+          }  
+        }
+        .form-container{
+    
+          .form-inputs{
+         
+            .form-input{
+              height: 52px;
+              
+              width: 217px;
+              &::placeholder{
+                font-size:$f3;
+  
+              }
+            }
+           
+          }
+        }
+      }
+    }
+  }
   /*------------------------------------ Components Ends ------------------------------------*/
 
   /*---------------------------------- Slick Slider Starts ----------------------------------*/

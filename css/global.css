@@ -124,11 +124,13 @@ a:hover, a:focus {
 }
 
 .custom-container .small-width-container {
-  max-width: 1200px;
+  padding: 80px 100px;
+  max-width: 1600px;
 }
 
 .custom-container .small-medium-container {
-  max-width: 1500px;
+  padding: 80px 100px;
+  max-width: 1400px;
 }
 
 .custom-container.no-top-bottom-padding {

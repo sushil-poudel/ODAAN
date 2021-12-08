@@ -52,18 +52,32 @@
                         <p>Lorem ipsum dolor sit amet, in nam denique suavitate repudiandae, homero dictas omnesque duo et. Novum dignissim consectetuer ei mel. Ne patrioque consequat persequeris usu, duo inani imperdiet deseruisse in, no tation conclusionemque vis. Ea labitur efficiantur ius. Pri ei meis.</p>
                     </div>
                     <div class="images-container">
-                        <div class="image-container">
-                            <img src="assets/img/gallery/image-1.jpg" alt="room">
+                        <div class="image-item"> 
+                            <div class="image-container">
+                                <img src="assets/img/gallery/image-1.jpg" alt="room">
+                            </div>
                         </div>
-                        <div class="image-container">
-                            <img src="assets/img/gallery/image-1.jpg" alt="room">
+                     
+                        <div class="image-item">
+                            <div class="image-container">
+                                <img src="assets/img/gallery/image-1.jpg" alt="room">
+                            </div>
                         </div>
-                        <div class="image-container">
-                            <img src="assets/img/gallery/image-1.jpg" alt="room">
+                       
+
+                        <div class="image-item">
+                            <div class="image-container">
+                                <img src="assets/img/gallery/image-1.jpg" alt="room">
+                            </div>
                         </div>
-                        <div class="image-container">
-                            <img src="assets/img/gallery/image-1.jpg" alt="room">
+                       
+
+                        <div class="image-item">
+                            <div class="image-container">
+                                <img src="assets/img/gallery/image-1.jpg" alt="room">
+                            </div>
                         </div>
+                        
                     </div>
 
                     <div class="common-facilities-container">
@@ -136,10 +150,11 @@
                     </div>
                 </div>
                 <div class="column-2">
-                    <div class="title-container">
-                        <h2>your reservation</h2>
-                    </div>
+                   
                     <div class="form-container">
+                        <div class="title-container">
+                            <h2>your reservation</h2>
+                        </div>
                         <form action="#">
                             <label for="">check in</label>
                             <input type="date">
@@ -155,12 +170,18 @@
 
                             <h2>extra services</h2>
                             
-                            <input type="radio" class="radio" name="extra-service" value="laundary fee">
-                            <label for="#" class="radio-label"> laundary fee <span class="line">_______</span>  <span>NPR. 250</span></label>
-                    
-                            <input type="radio" class="radio" name="extra-service" value="room service">
-                            <label for="#" class="radio-label">  room service <span class="line">_______</span> <span>NPR. 250</span></label>
-                
+                            <ul>
+                                <li>
+                                    <input type="radio" class="radio" name="extra-service" value="laundary fee">
+                                    <label for="#" class="radio-label"> laundary fee <span class="line"></span>  <span class="price">NPR. 250</span></label>
+                                </li>
+                                <li>
+                                    <input type="radio" class="radio" name="extra-service" value="room service">
+                                    <label for="#" class="radio-label">  room service <span class="line"></span> <span class="price">NPR. 250</span></label>
+                                </li>
+                            </ul>
+                           
+                            
                             <h3>your price</h3>
                             <h1>npr. 2200</h1>
                             <div class="common-button-container">
