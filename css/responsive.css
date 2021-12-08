@@ -178,8 +178,41 @@
   #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-2 ul li:nth-of-type(2) {
     font-size: 18px;
   }
+  #homepage .service-section .custom-container .service-container .section-content .column-2 .image-container {
+    width: 734px;
+  }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper .footer-section .image-container .custom-container {
+    padding: 242px 80px 80px 80px;
+  }
+  #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-1 .image-container h2 {
+    font-size: 58px;
+  }
+  #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-1 p {
+    font-size: 22px;
+  }
+  #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-2 {
+    margin-left: 30px;
+  }
+  #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-2 ul li {
+    font-size: 22px;
+  }
+  #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-3 {
+    margin-left: 30px;
+  }
+  #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-3 ul li {
+    font-size: 22px;
+  }
+  #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-4 ul li {
+    font-size: 22px;
+  }
+  #footer-wrapper .copyright-section .custom-container .copyright-container .copyright-left {
+    font-size: 18px;
+  }
+  #footer-wrapper .copyright-section .custom-container .copyright-container .copyright-right {
+    font-size: 18px;
+  }
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
   /*----------------------------------- Components Starts -----------------------------------*/
   .common-button-container a button {
@@ -229,7 +262,7 @@
     font-size: 32px;
   }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .icon-container i {
-    font-size: 34px;
+    font-size: 30px;
     bottom: -15%;
   }
   .common-search-section {
@@ -252,6 +285,19 @@
     font-size: 18px;
   }
   .common-search-section .custom-container .search-container .form-container .form-inputs .form-input::placeholder {
+    font-size: 18px;
+  }
+  .common-box-container h2 {
+    font-size: 30px;
+  }
+  .common-box-container p {
+    font-size: 18px;
+  }
+  .common-icon-button button {
+    height: 60px;
+    width: 60px;
+  }
+  .common-icon-button button i {
     font-size: 18px;
   }
   /*------------------------------------ Components Ends ------------------------------------*/

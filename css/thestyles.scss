@@ -572,6 +572,11 @@ $f14:44px;
               margin-bottom: 60px;
               &.text-right{
                 text-align: right;
+                padding-right: 17px;
+              }
+              &.text-left{
+                text-align: left;
+                padding-left: 17px;
               }
             }
           }
@@ -1463,6 +1468,8 @@ $f14:44px;
             width: 25%;
             line-height: 2.5;
           ul{
+            padding: 0;
+            margin:0;
             li{
               font-size: 24px;
               color: $white-color;
@@ -1473,6 +1480,8 @@ $f14:44px;
             width: 25%;
             line-height: 2.5;
             ul{
+              padding: 0;
+              margin:0;
               li{
                 font-size: 24px;
                 color: $white-color;
@@ -1487,6 +1496,8 @@ $f14:44px;
             width: 25%;
             line-height: 2.5;
             ul{
+              padding: 0;
+              margin:0;
               li{
                 font-size: 24px;
                 color: $white-color;
@@ -1780,7 +1791,7 @@ $f14:44px;
 .common-box-container{
   background-color: $green-color;
   border-radius: 10px;
-  padding: 10px 15px 10px 10px ;
+
   position: relative;
   h2{
     font-size: $f8;
@@ -1791,7 +1802,9 @@ $f14:44px;
   }
   p{
     font-size:$f4;
-
+    margin: 0;
+    margin-top: 0;
+  
 
   }
   &::after{
