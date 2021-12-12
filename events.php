@@ -43,10 +43,10 @@
                         <div class="common-image-container">
                             <img src="assets/img/gallery/card-image-1.png" alt="card-image">
                             <div class="date-container">
-                                <span>15th <br> SEP.</span>
+                                <button>15th <br> SEP.</button>
                             </div>
-                            <div class="tag-container myBtn">
-                                <span><i class="bi bi-tag"></i></span>
+                            <div class="tag-container ">
+                                <button><i class="bi bi-tag"></i></button>
                             </div>
                         </div>
                         <div class="card-caption-container">
@@ -74,10 +74,10 @@
                         <div class="common-image-container">
                             <img src="assets/img/gallery/card-image-2.png" alt="card-image">
                             <div class="date-container">
-                                <span>15th <br> SEP.</span>
+                                <button>15th <br> SEP.</button>
                             </div>
                             <div class="tag-container myBtn" >
-                                <span><i class="bi bi-tag"></i></span>
+                                <button><i class="bi bi-tag"></i></button>
                             </div>
                         </div>
                         <div class="card-caption-container">
@@ -117,10 +117,10 @@
                         <div class="common-image-container">
                             <img src="assets/img/gallery/card-image-1.png" alt="card-image">
                             <div class="date-container">
-                                <span>15th <br> SEP.</span>
+                                <button>15th <br> SEP.</button>
                             </div>
                             <div class="tag-container ">
-                                <span><i class="bi bi-tag"></i></span>
+                                <button><i class="bi bi-tag"></i></button>
                             </div>
                         </div>
                         <div class="card-caption-container">
@@ -160,10 +160,10 @@
                         <div class="common-image-container">
                             <img src="assets/img/gallery/card-image-1.png" alt="card-image">
                             <div class="date-container">
-                                <span>15th <br> SEP.</span>
+                                <button>15th <br> SEP.</button>
                             </div>
                             <div class="tag-container">
-                                <span><i class="bi bi-tag"></i></span>
+                                <button><i class="bi bi-tag"></i></button>
                             </div>
                         </div>
                         <div class="card-caption-container">
@@ -191,10 +191,10 @@
                         <div class="common-image-container">
                             <img src="assets/img/gallery/card-image-2.png" alt="card-image">
                             <div class="date-container">
-                                <span>15th <br> SEP.</span>
+                                <button>15th <br> SEP.</button>
                             </div>
                             <div class="tag-container">
-                                <span><i class="bi bi-tag"></i></span>
+                                <button><i class="bi bi-tag"></i></button>
                             </div>
                         </div>
                         <div class="card-caption-container">
@@ -222,10 +222,10 @@
                         <div class="common-image-container">
                             <img src="assets/img/gallery/card-image-1.png" alt="card-image">
                             <div class="date-container">
-                                <span>15th <br> SEP.</span>
+                                <button>15th <br> SEP.</button>
                             </div>
                             <div class="tag-container">
-                                <span><i class="bi bi-tag"></i></span>
+                                <button><i class="bi bi-tag"></i></button>
                             </div>
                         </div>
                         <div class="card-caption-container">
@@ -253,10 +253,10 @@
                         <div class="common-image-container">
                             <img src="assets/img/gallery/card-image-2.png" alt="card-image">
                             <div class="date-container">
-                                <span>15th <br> SEP.</span>
+                                <button>15th <br> SEP.</button>
                             </div>
                             <div class="tag-container">
-                                <span><i class="bi bi-tag"></i></span>
+                                <button><i class="bi bi-tag"></i></button>
                             </div>
                         </div>
                         <div class="card-caption-container">
@@ -323,10 +323,10 @@
             <i class="fas fa-chevron-left"></i>
         </div>
         <div class="number">
-            <span>1</span>
-            <span class="not-fill">2</span>
-            <span>3</span>
-            <span>4</span>
+            <button>1</button>
+            <button class="not-fill">2</button>
+            <button>3</button>
+            <button>4</button>
         </div>
         <div class="common-arrow-container">
             <i class="fas fa-chevron-right"></i>

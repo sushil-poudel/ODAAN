@@ -32,149 +32,6 @@
             </div>
 
     </section>
-<!-- 
-    <section class="gallery-section">
-        <div class="custom-container">
-            <div class="gallery-container">
-                <div class="heading-container">
-                    <h1> PHOTOGRAPHY IS OUR PASSION, <br>IT’S ALWAYS GREAT!</h1>
-                </div>
-                <div class="filter-title-container">
-                    <h2>all</h2>
-                    <h2>new year 2078</h2>
-                    <h2>merry christmas 2071</h2>
-                    <h2>birthday party</h2>
-                </div>
-                <div class="images-container">
-                    <div class="column-1">
-                        <div class="image-hover-container">
-                            <div class="image-container ">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                    
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="column-2">
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container ">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column-3">
-                        <div class="image-hover-container">
-                            <div class="image-container ">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container small-size">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                        <div class="image-hover-container">
-                            <div class="image-container ">
-                                <img src="assets/img/gallery/image-1.jpg" alt="">
-                            </div>
-                            <div class="hover-caption-container">
-                                <h1>new year 2078</h1>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div>
-               
-                <div class="common-pagination-container">
-                    <p>prev</p>
-                    <div class="number">
-                        <span>1</span>
-                        <span class="not-fill">2</span>
-                        <span>3</span>
-                        <span>4</span>
-                    </div>
-                    <p>next</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
 
     <section class="gallery-section">
         <div class="custom-container">
@@ -261,10 +118,10 @@
                 <i class="fas fa-chevron-left"></i>
             </div>
             <div class="number">
-                <span>1</span>
-                <span class="not-fill">2</span>
-                <span>3</span>
-                <span>4</span>
+                <button>1</button>
+                <button class="not-fill">2</button>
+                <button>3</button>
+                <button>4</button>
             </div>
             <div class="common-arrow-container">
                 <i class="fas fa-chevron-right"></i>

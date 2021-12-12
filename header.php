@@ -75,7 +75,7 @@
                         <div class="nav-content">
                             <ul class="mainmenu-container">
                                 <li class="submenu-container">
-                                    <a href="#">about odaan <span><i class="fa fa-angle-down"></i></span> </a>
+                                    <a href="about.php">about odaan <span><i class="fa fa-angle-down"></i></span> </a>
                                     <ul class="dropdown-menu-own">
                                         <li> <a href="about.php"> why choose us </a> </li>
                                         <li>  <a href="message-ceo.php">message from founder </a></li>

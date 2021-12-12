@@ -58,7 +58,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                                <span></span> npr. 2500
+                                <span></span>  <h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -69,7 +69,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                                <span></span>npr. 2500
+                                <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -80,7 +80,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                                <span></span>npr. 2500
+                                <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -91,7 +91,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -102,7 +102,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -113,7 +113,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500/-
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -137,7 +137,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -148,7 +148,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -159,7 +159,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -170,7 +170,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                         <div class="menu-item-container">
@@ -181,7 +181,7 @@
                                 <h4>ginger & creme fraiche</h4>
                             </div>
                             <div class="price-container">
-                            <span></span>npr. 2500
+                            <span></span><h4>npr. 2500/-</h4>
                             </div>
                         </div>
                     </div>
