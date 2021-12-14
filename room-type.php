@@ -12,7 +12,7 @@
                                     <span></span> <p>hotel</p> <span></span>
                                 </div>
                                 <div class="section-title">
-                                    <h1>types of <span>rooms</span></h1>
+                                    <h1 class="text-small">types of <span>rooms</span></h1>
                                 </div>
 
                                 <div class="section-content-banner">

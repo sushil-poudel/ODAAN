@@ -14,7 +14,7 @@
                                     <span></span> <p>hotel</p> <span></span>
                                 </div>
                                 <div class="section-title">
-                                    <h1>we're here for<span>help</span></h1>
+                                    <h1 class="text-small">we're here for<span>help</span></h1>
                                 </div>
 
                                 <div class="section-content-banner">

@@ -14,7 +14,7 @@
                                     <span></span> <p>hotel</p> <span></span>
                                 </div>
                                 <div class="section-title">
-                                    <h1>our <span>reservation</span></h1>
+                                    <h1 class="text-small">our <span>reservation</span></h1>
                                 </div>
 
                                 <div class="section-content-banner">
@@ -36,6 +36,14 @@
 
     <section class="room-details-section">
         <div class="custom-container">
+                <div class="common-heading-container">
+                    <div class="common-section-subtitle line">
+                        <span></span> <h2>make a reservation</h2> <span></span>
+                    </div>
+                    <div class="common-section-title">
+                        <h1>let's book your stay at odaan</h1>    
+                    </div>
+                </div>
             <div class="room-details-container">
                 <div class="column-1">
                     <div class="title-container">

@@ -13,7 +13,7 @@
                                     <span></span> <p>hotel</p> <span></span>
                                 </div>
                                 <div class="section-title">
-                                    <h1>story  <span>about us </span></h1>
+                                    <h1 class="text-small">story  <span>about us </span></h1>
                                 </div>
 
                                 <div class="section-content-banner">
@@ -37,7 +37,7 @@
     <section class="about-section">
         <div class="custom-container">
             <div class="about-container">
-                <div class="section-heading-container">
+                <div class="common-heading-container">
                     <div class="common-section-subtitle line">
                         <span></span> <h2>story about us </h2> <span></span>
                     </div>
@@ -45,21 +45,21 @@
                         <h1>let's talk about odaan</h1>    
                     </div>
                 </div>
-                <div class="section-content-container">
-                    <div class="column-1">
+                <div class="section-content-container animation-area4">
+                    <div class="column-1 ani-sequence">
                         <p>Situated in the epicenter of Kathmandu valley, offering great value for money with superb rooms and wonderful dining the experience. Come and stay with us and allow us to make you feel at home with true Nepalese hospitability!</p>
                         <p>The food served are hygienic and timely. The culinary chef use their best skills to serve a delight on your table. You can enjoy our listed delicious recipes of Indian, Continental and Chinese Cuisine.</p>
                         <p>We are surrounded by a multitude ofshopping centers, Bhatbhateni store, Nepalese ethnic gift shops and entertainment options, offering an exhilarating combination of activities for a memorable holiday.</p>
                         <p>We are surrounded by a multitude ofshopping centers, Bhatbhateni store, Nepalese ethnic gift shops and entertainment options, offering an exhilarating combination of activities for a memorable holiday.</p>
-                        <button>
-                            <a href="#">read more</a>
+                        <button id="read-more">
+                            read more
                         </button>
                     </div>
-                    <!-- <div class="column-2">
+                    <div class="column-2 ">
                         <div class="images-container">
-                            <div class="image-1-container">
+                            <div class="image-1-container ">
                                 <img src="assets/img/gallery/about3.png" alt="">
-                                    <div class="image-2-container">
+                                    <div class="image-2-container ">
                                         <img src="assets/img/gallery/about1.png" alt="">
                                     </div>
                                     <div class="image-3-container">
@@ -71,8 +71,8 @@
                                 since.. <br> <span>1995</span>
                             </div>
                         </div>
-                    </div> -->
-                    <div class="column-3">
+                    </div>
+                    <div class="column-3 ani-sequence">
                         <div class="about-item-container">
                             <div class="icon-container">
                                 <div class="image-container">

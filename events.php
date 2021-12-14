@@ -12,7 +12,7 @@
                                     <span></span> <p>hotel</p> <span></span>
                                 </div>
                                 <div class="section-title">
-                                    <h1>odaan's <span>events</span></h1>
+                                    <h1 class="text-small">odaan's <span>events</span></h1>
                                 </div>
 
                                 <div class="section-content-banner">
@@ -32,258 +32,262 @@
         </div>
     </section>
 
-    <section class="card-section-row1">
+
+
+    <section class="event-section">
         <div class="custom-container">
-            <div class="common-card-container">
-                <div class="title-container">
-                    <h1>upcomming events</h1>
+            <div class="event-container">
+                <div class="common-heading-container">
+                    <div class="common-section-subtitle line">
+                        <span></span> <h2>explore our events  </h2> <span></span>
+                    </div>
+                    <div class="common-section-title">
+                        <h1>let's book your ticket now </h1>    
+                    </div>
                 </div>
-                <div class="card-items-container">
-                    <div class="card-item">
-                        <div class="common-image-container">
-                            <img src="assets/img/gallery/card-image-1.png" alt="card-image">
-                            <div class="date-container">
-                                <button>15th <br> SEP.</button>
+                <div class="common-card-container">
+                    <div class="title-container">
+                        <h1>upcomming events</h1>
+                    </div>
+                    <div class="card-items-container">
+                        <div class="card-item">
+                            <div class="common-image-container">
+                                <img src="assets/img/gallery/card-image-1.png" alt="card-image">
+                                <div class="date-container">
+                                    <button>15th <br> SEP.</button>
+                                </div>
+                                <div class="tag-container ">
+                                    <button><i class="bi bi-tag"></i></button>
+                                </div>
                             </div>
-                            <div class="tag-container ">
-                                <button><i class="bi bi-tag"></i></button>
+                            <div class="card-caption-container">
+                                <div class="card-title-container">
+                                    sandip comedy night 
+                                </div>
+                                <div class="card-time-container">
+                                    09:00pm- 11:00 pm 
+                                </div>
+                                <div class="card-days-container">
+                                    <ul>
+                                        <li>s</li>
+                                        <li>m</li>
+                                        <li>t</li>
+                                        <li>w</li>
+                                        <li>th</li>
+                                        <li>f</li>
+                                        <li>s</li>
+                                    
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="card-caption-container">
-                            <div class="card-title-container">
-                                sandip comedy night 
+                        <div class="card-item">
+                            <div class="common-image-container">
+                                <img src="assets/img/gallery/card-image-2.png" alt="card-image">
+                                <div class="date-container">
+                                    <button>15th <br> SEP.</button>
+                                </div>
+                                <div class="tag-container myBtn" >
+                                    <button><i class="bi bi-tag"></i></button>
+                                </div>
                             </div>
-                            <div class="card-time-container">
-                                09:00pm- 11:00 pm 
-                            </div>
-                            <div class="card-days-container">
-                                <ul>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>t</li>
-                                    <li>w</li>
-                                    <li>th</li>
-                                    <li>f</li>
-                                    <li>s</li>
-                                
-                                </ul>
+                            <div class="card-caption-container">
+                                <div class="card-title-container">
+                                    sandip comedy night 
+                                </div>
+                                <div class="card-time-container">
+                                    09:00pm- 11:00 pm 
+                                </div>
+                                <div class="card-days-container">
+                                    <ul>
+                                        <li>s</li>
+                                        <li>m</li>
+                                        <li>t</li>
+                                        <li>w</li>
+                                        <li>th</li>
+                                        <li>f</li>
+                                        <li>s</li>
+                                    
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-item">
-                        <div class="common-image-container">
-                            <img src="assets/img/gallery/card-image-2.png" alt="card-image">
-                            <div class="date-container">
-                                <button>15th <br> SEP.</button>
+                </div>  
+                <div class="common-card-container">
+                    <div class="title-container">
+                        <h1>recent events</h1>
+                    </div>
+                    <div class="card-items-container">
+                        <div class="card-item">
+                            <div class="common-image-container">
+                                <img src="assets/img/gallery/card-image-1.png" alt="card-image">
+                                <div class="date-container">
+                                    <button>15th <br> SEP.</button>
+                                </div>
+                                <div class="tag-container ">
+                                    <button><i class="bi bi-tag"></i></button>
+                                </div>
                             </div>
-                            <div class="tag-container myBtn" >
-                                <button><i class="bi bi-tag"></i></button>
-                            </div>
-                        </div>
-                        <div class="card-caption-container">
-                            <div class="card-title-container">
-                                sandip comedy night 
-                            </div>
-                            <div class="card-time-container">
-                                09:00pm- 11:00 pm 
-                            </div>
-                            <div class="card-days-container">
-                                <ul>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>t</li>
-                                    <li>w</li>
-                                    <li>th</li>
-                                    <li>f</li>
-                                    <li>s</li>
-                                
-                                </ul>
+                            <div class="card-caption-container">
+                                <div class="card-title-container">
+                                    sandip comedy night 
+                                </div>
+                                <div class="card-time-container">
+                                    09:00pm- 11:00 pm 
+                                </div>
+                                <div class="card-days-container">
+                                    <ul>
+                                        <li>s</li>
+                                        <li>m</li>
+                                        <li>t</li>
+                                        <li>w</li>
+                                        <li>th</li>
+                                        <li>f</li>
+                                        <li>s</li>
+                                    
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>  
+                </div> 
+                <div class="common-card-container">
+                    <div class="title-container">
+                        <h1>previous events</h1>
+                    </div>
+                    <div class="card-items-container">
+                        <div class="card-item">
+                            <div class="common-image-container">
+                                <img src="assets/img/gallery/card-image-1.png" alt="card-image">
+                                <div class="date-container">
+                                    <button>15th <br> SEP.</button>
+                                </div>
+                                <div class="tag-container">
+                                    <button><i class="bi bi-tag"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-caption-container">
+                                <div class="card-title-container">
+                                    sandip comedy night 
+                                </div>
+                                <div class="card-time-container">
+                                    09:00pm- 11:00 pm 
+                                </div>
+                                <div class="card-days-container">
+                                    <ul>
+                                        <li>s</li>
+                                        <li>m</li>
+                                        <li>t</li>
+                                        <li>w</li>
+                                        <li>th</li>
+                                        <li>f</li>
+                                        <li>s</li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <div class="common-image-container">
+                                <img src="assets/img/gallery/card-image-2.png" alt="card-image">
+                                <div class="date-container">
+                                    <button>15th <br> SEP.</button>
+                                </div>
+                                <div class="tag-container">
+                                    <button><i class="bi bi-tag"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-caption-container">
+                                <div class="card-title-container">
+                                    sandip comedy night 
+                                </div>
+                                <div class="card-time-container">
+                                    09:00pm- 11:00 pm 
+                                </div>
+                                <div class="card-days-container">
+                                    <ul>
+                                        <li>s</li>
+                                        <li>m</li>
+                                        <li>t</li>
+                                        <li>w</li>
+                                        <li>th</li>
+                                        <li>f</li>
+                                        <li>s</li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <div class="common-image-container">
+                                <img src="assets/img/gallery/card-image-1.png" alt="card-image">
+                                <div class="date-container">
+                                    <button>15th <br> SEP.</button>
+                                </div>
+                                <div class="tag-container">
+                                    <button><i class="bi bi-tag"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-caption-container">
+                                <div class="card-title-container">
+                                    sandip comedy night 
+                                </div>
+                                <div class="card-time-container">
+                                    09:00pm- 11:00 pm 
+                                </div>
+                                <div class="card-days-container">
+                                    <ul>
+                                        <li>s</li>
+                                        <li>m</li>
+                                        <li>t</li>
+                                        <li>w</li>
+                                        <li>th</li>
+                                        <li>f</li>
+                                        <li>s</li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <div class="common-image-container">
+                                <img src="assets/img/gallery/card-image-2.png" alt="card-image">
+                                <div class="date-container">
+                                    <button>15th <br> SEP.</button>
+                                </div>
+                                <div class="tag-container">
+                                    <button><i class="bi bi-tag"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-caption-container">
+                                <div class="card-title-container">
+                                    sandip comedy night 
+                                </div>
+                                <div class="card-time-container">
+                                    09:00pm- 11:00 pm 
+                                </div>
+                                <div class="card-days-container">
+                                    <ul>
+                                        <li>s</li>
+                                        <li>m</li>
+                                        <li>t</li>
+                                        <li>w</li>
+                                        <li>th</li>
+                                        <li>f</li>
+                                        <li>s</li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
         </div>
     </section>
     
-    <section class="card-section-row2">
-        <div class="custom-container">
-            <div class="common-card-container">
-                <div class="title-container">
-                    <h1>recent events</h1>
-                </div>
-                <div class="card-items-container">
-                    <div class="card-item">
-                        <div class="common-image-container">
-                            <img src="assets/img/gallery/card-image-1.png" alt="card-image">
-                            <div class="date-container">
-                                <button>15th <br> SEP.</button>
-                            </div>
-                            <div class="tag-container ">
-                                <button><i class="bi bi-tag"></i></button>
-                            </div>
-                        </div>
-                        <div class="card-caption-container">
-                            <div class="card-title-container">
-                                sandip comedy night 
-                            </div>
-                            <div class="card-time-container">
-                                09:00pm- 11:00 pm 
-                            </div>
-                            <div class="card-days-container">
-                                <ul>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>t</li>
-                                    <li>w</li>
-                                    <li>th</li>
-                                    <li>f</li>
-                                    <li>s</li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
-  
-    <section class="card-section-row3">
-        <div class="custom-container">
-            <div class="common-card-container">
-                <div class="title-container">
-                    <h1>previous events</h1>
-                </div>
-                <div class="card-items-container">
-                    <div class="card-item">
-                        <div class="common-image-container">
-                            <img src="assets/img/gallery/card-image-1.png" alt="card-image">
-                            <div class="date-container">
-                                <button>15th <br> SEP.</button>
-                            </div>
-                            <div class="tag-container">
-                                <button><i class="bi bi-tag"></i></button>
-                            </div>
-                        </div>
-                        <div class="card-caption-container">
-                            <div class="card-title-container">
-                                sandip comedy night 
-                            </div>
-                            <div class="card-time-container">
-                                09:00pm- 11:00 pm 
-                            </div>
-                            <div class="card-days-container">
-                                <ul>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>t</li>
-                                    <li>w</li>
-                                    <li>th</li>
-                                    <li>f</li>
-                                    <li>s</li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="common-image-container">
-                            <img src="assets/img/gallery/card-image-2.png" alt="card-image">
-                            <div class="date-container">
-                                <button>15th <br> SEP.</button>
-                            </div>
-                            <div class="tag-container">
-                                <button><i class="bi bi-tag"></i></button>
-                            </div>
-                        </div>
-                        <div class="card-caption-container">
-                            <div class="card-title-container">
-                                sandip comedy night 
-                            </div>
-                            <div class="card-time-container">
-                                09:00pm- 11:00 pm 
-                            </div>
-                            <div class="card-days-container">
-                                <ul>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>t</li>
-                                    <li>w</li>
-                                    <li>th</li>
-                                    <li>f</li>
-                                    <li>s</li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="common-image-container">
-                            <img src="assets/img/gallery/card-image-1.png" alt="card-image">
-                            <div class="date-container">
-                                <button>15th <br> SEP.</button>
-                            </div>
-                            <div class="tag-container">
-                                <button><i class="bi bi-tag"></i></button>
-                            </div>
-                        </div>
-                        <div class="card-caption-container">
-                            <div class="card-title-container">
-                                sandip comedy night 
-                            </div>
-                            <div class="card-time-container">
-                                09:00pm- 11:00 pm 
-                            </div>
-                            <div class="card-days-container">
-                                <ul>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>t</li>
-                                    <li>w</li>
-                                    <li>th</li>
-                                    <li>f</li>
-                                    <li>s</li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-item">
-                        <div class="common-image-container">
-                            <img src="assets/img/gallery/card-image-2.png" alt="card-image">
-                            <div class="date-container">
-                                <button>15th <br> SEP.</button>
-                            </div>
-                            <div class="tag-container">
-                                <button><i class="bi bi-tag"></i></button>
-                            </div>
-                        </div>
-                        <div class="card-caption-container">
-                            <div class="card-title-container">
-                                sandip comedy night 
-                            </div>
-                            <div class="card-time-container">
-                                09:00pm- 11:00 pm 
-                            </div>
-                            <div class="card-days-container">
-                                <ul>
-                                    <li>s</li>
-                                    <li>m</li>
-                                    <li>t</li>
-                                    <li>w</li>
-                                    <li>th</li>
-                                    <li>f</li>
-                                    <li>s</li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
+
 
     <!-- The Modal -->
     <div id="myModal" class="modal">

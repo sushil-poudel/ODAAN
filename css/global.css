@@ -75,6 +75,10 @@ img {
      object-fit: cover !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins" !important;
+}
+
 a:link, a:visited, a:hover {
   text-decoration: none;
 }
@@ -87,7 +91,7 @@ p {
   margin-bottom: 18px;
   line-height: 2;
   font-size: 24px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 p:last-of-type {

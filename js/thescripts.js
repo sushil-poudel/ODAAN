@@ -67,6 +67,10 @@
     }
     
     function addClassInit() {
+        $('#read-more').click(function(){
+            $('body').addClass('normal');
+        })
+  
     }
     
     function addScrollClass() {
@@ -200,6 +204,26 @@
     
     });
 
+    jQuery(window).scroll(function () {
+        var winHeight = jQuery(window).height();
+        var offset = 0.6;
+        var scrollTop = jQuery(window).scrollTop();
+        var visibleArea = scrollTop + (winHeight * offset);
+    
+        jQuery('.animation-area4').each(function () {
+            if(jQuery(this).offset().top < visibleArea) {
+               
+                jQuery(this).find('.ani-sequence').addClass('normal');
+   
+            }else{
+               
+                jQuery(this).find('.ani-sequence').removeClass('normal');
+            }
+        });
+    
+    });
+
+    
 
 
     // // Get the modal

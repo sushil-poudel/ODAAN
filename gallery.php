@@ -12,7 +12,7 @@
                                         <span></span> <p>hotel</p> <span></span>
                                     </div>
                                     <div class="section-title">
-                                        <h1>our <span>reservation</span></h1>
+                                        <h1 class="text-small">our <span>reservation</span></h1>
                                     </div>
 
                                     <div class="section-content-banner">
@@ -36,8 +36,13 @@
     <section class="gallery-section">
         <div class="custom-container">
             <div class="gallery-container">
-                <div class="heading-container">
-                    <h1> PHOTOGRAPHY IS OUR PASSION, <br>IT’S ALWAYS GREAT!</h1>
+                <div class="common-heading-container">
+                    <div class="common-section-subtitle line">
+                        <span></span> <h2>our gallery stories </h2> <span></span>
+                    </div>
+                    <div class="common-section-title">
+                        <h1>PHOTOGRAPHY IS OUR PASSION, <br> IT’S ALWAYS <span> GREAT!</span> </h1>    
+                    </div>
                 </div>
                 <div class="filter-title-container">
                     <div class="arrow-container">
@@ -52,6 +57,65 @@
                     </div>
                 </div>
                 <div class="images-container">
+                    <div class="column-1">
+                        <div class="image-container">
+                            <img src="assets/img/gallery/event2.png" alt="">
+                            <div class="hover-caption-container">
+                                <h2>happy new year 2075</h2>
+                                <p>lets rock the stage with our sabin dai.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="column-2">
+                        <div class="row-1-container">
+                            <div class="image-container">
+                                <img src="assets/img/gallery/event1.png" alt="">
+                                <div class="hover-caption-container">
+                                    <h2>happy new year 2075</h2>
+                                    <p>lets rock the stage with our sabin dai.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-2-container">
+                            <div class="image-container">
+                                <img src="assets/img/gallery/event3.png" alt="">
+                                <div class="hover-caption-container">
+                                    <h2>happy new year 2075</h2>
+                                    <p>lets rock the stage with our sabin dai.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-3">
+                        <div class="row-1-container">
+                            <div class="image-container">
+                                <img src="assets/img/gallery/event4.png" alt="">
+                                <div class="hover-caption-container">
+                                    <h2>happy new year 2075</h2>
+                                    <p>lets rock the stage with our sabin dai.</p>
+                                </div>
+                            </div>
+                            <div class="image-container">
+                                <img src="assets/img/gallery/event5.png" alt="">
+                                <div class="hover-caption-container">
+                                    <h2>happy new year 2075</h2>
+                                    <p>lets rock the stage with our sabin dai.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-2-container">
+                            <div class="image-container">
+                                <img src="assets/img/gallery/event6.png" alt="">
+                                <div class="hover-caption-container">
+                                    <h2>happy new year 2075</h2>
+                                    <p>lets rock the stage with our sabin dai.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="images-container row-reverse">
                     <div class="column-1">
                         <div class="image-container">
                             <img src="assets/img/gallery/event2.png" alt="">

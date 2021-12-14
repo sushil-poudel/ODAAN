@@ -98,12 +98,12 @@
     <section class="display-room-section">
         <div class="custom-container">
             <div class="display-room-container animation-area3">
-                <div class="section-heading-container">
+                <div class="common-heading-container">
                     <div class="common-section-subtitle line">
-                        <span></span> <h2>elegant hotel</h2> <span></span>
+                        <span></span> <h2>elegant hotel </h2> <span></span>
                     </div>
                     <div class="common-section-title">
-                        <h1> enjoy your stay in odaan</h1>    
+                        <h1>enjoy your stay in odaan</h1>    
                     </div>
                 </div>
                 <div class="card-container ani-sequence">
@@ -266,10 +266,10 @@
         <div class="custom-container">
             <div class="menu-container animation-area">
                 <div class="column-1 ani-sequence ">
-                    <div class="common-section-subtitle">
+                    <div class="section-subtitle">
                         <h2>explore our food</h2>
                     </div>
-                    <div class="common-section-title">
+                    <div class="section-title">
                         <h1>odaan cafe surprises</h1>
                     </div>
                     <div class="text-container">
@@ -436,10 +436,10 @@
                     </div>
                 </div>
                 <div class="column-2 ani-sequence">
-                    <div class="common-section-subtitle">
+                    <div class="section-subtitle">
                         <h2>restaurant & lounge bar</h2>
                     </div>
-                    <div class="common-section-title">
+                    <div class="section-title">
                         <h1>odaan relaxing pleasure </h1>
                     </div>
                     <div class="text-container">
@@ -479,11 +479,13 @@
     <section class="service-section">
         <div class="custom-container">
             <div class="service-container animation-area">
-                <div class="common-section-subtitle line">
-                   <span></span> <h2>what we do</h2> <span></span>
-                </div>
-                <div class="common-section-title">
-                    <h1>our services</h1>
+                <div class="common-heading-container no-margin">
+                    <div class="common-section-subtitle line">
+                        <span></span> <h2>what we do </h2> <span></span>
+                    </div>
+                    <div class="common-section-title">
+                        <h1>our services</h1>    
+                    </div>
                 </div>
                 <div class="section-content">
                     <div class="column-1 animation-area1">
