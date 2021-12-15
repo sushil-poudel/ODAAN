@@ -210,6 +210,54 @@
   transition: all 0.5s ease-in-out;
 }
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  background-color: #092648;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: #282c38;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 999;
+  color: white;
+  right: 3%;
+  top: 8%;
+}
+
 /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 body.normal #about-page {
   background-color: #E5E5E5;
@@ -233,40 +281,6 @@ body.normal #about-page .about-section .custom-container .about-container .secti
 
 #homepage .display-room-section {
   overflow: hidden;
-}
-
-#homepage .display-room-section .custom-container .display-room-container .section-heading-container .common-section-subtitle {
-  text-align: center;
-}
-
-#homepage .display-room-section .custom-container .display-room-container .section-heading-container .common-section-subtitle h2 {
-  display: inline-block;
-  text-align: center;
-  position: relative;
-}
-
-#homepage .display-room-section .custom-container .display-room-container .section-heading-container .common-section-subtitle h2:after, #homepage .display-room-section .custom-container .display-room-container .section-heading-container .common-section-subtitle h2:before {
-  content: '';
-  position: absolute;
-  background-color: red;
-  height: 3px;
-  width: 24px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-#homepage .display-room-section .custom-container .display-room-container .section-heading-container .common-section-subtitle h2:after {
-  right: -20%;
-}
-
-#homepage .display-room-section .custom-container .display-room-container .section-heading-container .common-section-subtitle h2:before {
-  left: -20%;
-}
-
-#homepage .display-room-section .custom-container .display-room-container .section-heading-container .common-section-title {
-  text-align: center;
-  position: relative;
 }
 
 #homepage .display-room-section .custom-container .display-room-container .card-container {

@@ -66,53 +66,121 @@
 
     <!--------------------------------- Header Wrapper Starts ---------------------------------->
     <header id="header-wrapper">                
-            <div class="custom-container no-top-bottom-padding">
-                <div class="navbar-container">
-                    <div class="logo-container">
-                        <a href="index.php"> <img src="assets/img/logo/logo.png" alt="logo"></a>
+        <div class="custom-container no-top-bottom-padding">
+            <div class="navbar-container">
+                <div class="logo-container">
+                    <a href="index.php"> <img src="assets/img/logo/logo.png" alt="logo"></a>
+                </div>
+                <div class="nav-container">
+                    <div class="nav-content">
+                        <ul class="mainmenu-container">
+                            <li class="submenu-container">
+                                <a href="about.php">about odaan <span><i class="fa fa-angle-down"></i></span> </a>
+                                <ul class="dropdown-menu-own">
+                                    <li> <a href="about.php"> why choose us </a> </li>
+                                    <li>  <a href="message-ceo.php">message from founder </a></li>
+                                    <li><a href="team.php"> contact us</a></li>
+                                </ul>
+                            </li>
+                        
+                            <li class="submenu-container">
+                                <a href="room-type.php">type of rooms  <span><i class="fa fa-angle-down"></i></span> </a>
+                                <ul class="dropdown-menu-own">
+                                    <li> <a href="#">standard room </a> </li>
+                                    <li> <a href="#">superior room</a> </li>
+                                    <li> <a href="#">junior suite</a> </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-container">
+                                <a href="menu.php">our menu</a>
+                                
+                            </li>
+                            <li class="submenu-container"><a href="events.php">our events <span><i class="fa fa-angle-down"></i></span></a>
+                                <ul class="dropdown-menu-own">
+                                    <li>  <a href="#">view events</a> </li>
+                                    <li> <a href="#"> buy a ticket</a> </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-container"><a href="gallery.php">gallery</a></li>
+                            <li class="common-button-container submenu-container"><a href="contact.php"><button><i class="fas fa-phone-square-alt"></i> +977 9861248976</button>  </a></li>
+                        </ul> 
                     </div>
-                    <div class="nav-container">
-                        <div class="nav-content">
-                            <ul class="mainmenu-container">
-                                <li class="submenu-container">
-                                    <a href="about.php">about odaan <span><i class="fa fa-angle-down"></i></span> </a>
-                                    <ul class="dropdown-menu-own">
-                                        <li> <a href="about.php"> why choose us </a> </li>
-                                        <li>  <a href="message-ceo.php">message from founder </a></li>
-                                        <li><a href="team.php"> contact us</a></li>
-                                    </ul>
-                                </li>
-                            
-                                <li class="submenu-container">
-                                    <a href="room-type.php">type of rooms  <span><i class="fa fa-angle-down"></i></span> </a>
-                                    <ul class="dropdown-menu-own">
-                                        <li> <a href="#">standard room </a> </li>
-                                        <li> <a href="#">superior room</a> </li>
-                                        <li> <a href="#">junior suite</a> </li>
-                                    </ul>
-                                </li>
-                                <li class="submenu-container">
-                                    <a href="menu.php">our menu</a>
-                                 
-                                </li>
-                                <li class="submenu-container"><a href="events.php">our events <span><i class="fa fa-angle-down"></i></span></a>
-                                    <ul class="dropdown-menu-own">
-                                        <li>  <a href="#">view events</a> </li>
-                                        <li> <a href="#"> buy a ticket</a> </li>
-                                    </ul>
-                                </li>
-                                <li class="submenu-container"><a href="gallery.php">gallery</a></li>
-                                <li class="common-button-container submenu-container"><a href="contact.php"><button><i class="fas fa-phone-square-alt"></i> +977 9861248976</button>  </a></li>
-                            </ul> 
-                        </div>
-                    </div> 
-                   
-                 </div> 
-            </div>               
-        </header>
+                </div> 
+              
+            </div> 
+        </div>               
+    </header>
+
+    
+   
     <!---------------------------------- Header Wrapper Ends ----------------------------------->
 
 
+       
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="nav-section">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="index.php">Home</a>
+                </li>
+                <li>
+                    <a href="publication.php">publications</a>
+                </li>
+                <li>
+                    <a href="contact.php">contact us</a>
+                </li>
+            </ul>
+            <ul uk-accordion>
+                <li>
+                    <a class="uk-accordion-title" href="#">about iref</a>
+                    <div class="uk-accordion-content">
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="about.php">Why Choose Us</a>
+                            </li>
+                            <li>
+                                <a href="chairman.php">Chairman's Voice</a>
+                            </li>
+                            <li>
+                                <a href="team.php">Our Team</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">services</a>
+                    <div class="uk-accordion-content">
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="services.php">Research Services</a>
+                            </li>
+                            <li>
+                                <a href="services.php">Phd & other Studies</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">programs</a>
+                    <div class="uk-accordion-content">
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="events.php">Our News & Events</a>
+                            </li>
+                            <li>
+                                <a href="">Our Gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<span class="openbtn"  onclick="openNav()">&#9776;</span>
 
     <!-------------------------------- Content Wrapper Starts ---------------------------------->
     <div id="content-wrapper">

@@ -131,6 +131,7 @@ $f14:44px;
             }
           } 
         }
+      
       }
     }
   }
@@ -142,6 +143,56 @@ $f14:44px;
 
   }
 }
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  background-color:#092648;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  text-align: center;
+  padding:20px 0;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color:#282c38;
+
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn{
+  display: none;
+    font-size:30px;
+    cursor:pointer; 
+    position:fixed; 
+    z-index:999; 
+    color:white; 
+    right:3%;
+    top:8%;
+}
+
 /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 body{
   &.normal{
@@ -175,36 +226,6 @@ body{
     overflow: hidden;
     .custom-container{
       .display-room-container{
-        .section-heading-container{
-          .common-section-subtitle{
-            text-align: center;
-            h2{
-              display: inline-block;
-              text-align: center;
-              position: relative;
-              &:after,&:before{
-                content: '';
-                position: absolute;
-                background-color: red;
-                height: 3px;
-                width: 24px;
-                top: 50%;
-                transform: translateY(-50%);
-              }
-              &:after{
-                right: -20%;
-              }
-              &:before{
-                left: -20%;
-              }
-            }
-          }
-          .common-section-title{
-            text-align: center;
-            position: relative;
-         
-          }
-        }
         .card-container{
           display: flex;
           justify-content: space-between;
@@ -219,6 +240,8 @@ body{
             .row1-container{
               position: relative;
               .image-container{
+                // height: 325px;
+                // width: 557px;
                 img{
                   border-radius: 20px 20px 0 0;
                 }
