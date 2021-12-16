@@ -40,8 +40,8 @@ $f14:44px;
         justify-content: space-between;
         align-items: center;
         .logo-container{
-          height: 166px;
-          width: 166px;
+          height: 130px;
+          width: 130px;
           a{
             img{
               
@@ -144,9 +144,16 @@ $f14:44px;
   }
 }
 
+.openbtn{
+  display: none;
+    font-size:30px;
+    cursor:pointer; 
+    z-index:999; 
+    color:white; 
+  
+}
 
-
-.sidenav {
+.sidenav{
   height: 100%;
   width: 0;
   position: fixed;
@@ -157,42 +164,43 @@ $f14:44px;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .nav-section{
+    .navigation{
+      ul{
+        &>li{
+ 
+          a{
+            text-align: left;
+            padding:10px 30px;
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+            text-transform: uppercase;
+          }
+          .uk-accordion-content{
+            .sub-menu{
+              li{
+                a{
+                  font-size: 18px;
+                }
+          
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
-
-.sidenav a {
-  text-align: center;
-  padding:20px 0;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  background-color:#282c38;
-
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn{
-  display: none;
-    font-size:30px;
-    cursor:pointer; 
-    position:fixed; 
-    z-index:999; 
-    color:white; 
-    right:3%;
-    top:8%;
-}
-
 /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 body{
   &.normal{
@@ -279,6 +287,7 @@ body{
               align-items: center;
               background-color: $white-color;
               padding:30px;
+              padding-top:0;
 
               ul{
                 display: flex;
@@ -610,6 +619,7 @@ body{
   .service-section{
     background-color: $light-blue;
     overflow: hidden;
+    margin-bottom: 115px;
     .custom-container{
       padding-bottom: 0;
       .service-container{
@@ -658,13 +668,13 @@ body{
         .section-content-container{
           display: flex;
           justify-content: space-between;
-          align-items: center;
+        
         
         .column-1{
           width: 50%;
           margin-right: 120px;
           p{
-            font-weight: $f4;
+            font-size: $f4;
             text-align: left;
           }
           button{
@@ -675,6 +685,7 @@ body{
             text-transform: capitalize;
             color: black;
             margin:50px 0;
+            cursor: pointer;
           }
         }
         .column-2{
@@ -707,8 +718,8 @@ body{
               text-transform: uppercase;
               font-weight: bold;
               position: absolute;
-              right: 16%;
-              bottom: -6%;
+              right: 18%;
+              bottom: 22%;
               color: $white-color;
               span{
                 color: #96CE8C;
@@ -721,6 +732,7 @@ body{
         .column-3{
           width: 50%;
           display: none;
+          margin-left: 80px;
           .about-item-container{
             display: flex;
             justify-content: space-between;
@@ -749,7 +761,7 @@ body{
               }
               .content-container{
                 p{
-                  font-size: 24px;
+                  font-size: $f4;
             
                 }
               }
@@ -1644,6 +1656,7 @@ body{
               li{
                 font-size: 24px;
                 color: $white-color;
+                text-transform: uppercase;
               }
               li:nth-of-type(5){
                 color: $red;
@@ -1690,7 +1703,7 @@ body{
     .common-banner-slider {
       .banner-item {
         .image-container {
-          height: 110vh;
+          height: 125vh;
           // height: 850px;
           background-position: center;
           background-size: cover;
@@ -1724,8 +1737,8 @@ body{
           
               .banner-content {
                 position: absolute;
-                top:240%;
-                right: 0;
+                top:140%;
+                right: 7%;
                 left: 0;
                 .section-title {
                   h1 {
@@ -1843,7 +1856,7 @@ body{
 }
 .common-search-section{
   position:absolute;
-  bottom:-12%;
+  bottom:-13%;
   margin:auto;
   left: 50%;
   border-color:$gray-color;
@@ -1912,8 +1925,8 @@ body{
     border-radius: 50%;
     border-style: none;
     background-color: #1ACE75;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     i{
       color:$white-color;
       font-size:$f4;
@@ -2053,7 +2066,7 @@ justify-content: space-between;
         }
       }
       &:not(:last-of-type){
-        margin-right: 30px;
+        margin-right: 10px;
       }
       &:nth-of-type(2){
         margin-right: 30px;
@@ -2073,12 +2086,26 @@ justify-content: space-between;
   }
 }
 .common-card-container{
+  &:not(:last-of-type){
+    margin-bottom: 125px;
+  }
+
   .title-container{
     h1{
       font-size: $f7;
       font-weight: 600;
       text-transform: uppercase;
       margin-bottom: 90px;
+      position: relative;
+      &::after{
+        content: '';
+        height: 5px;
+        width: 35px;
+        background-color: $green-color;
+        position: absolute;
+        bottom: -38%;
+        left: 0;
+      }
     }
   }
   .card-items-container{
@@ -2115,7 +2142,7 @@ justify-content: space-between;
           }
         }
         .tag-container{
-      
+          
           position: absolute;
           bottom:8%;
           right: 7%;
@@ -2128,6 +2155,7 @@ justify-content: space-between;
             align-items: center;
             border: none;
             background-color: $green-color;
+            cursor: pointer;
             i{
               font-size: $f8;
               color:$white-color;
@@ -2162,6 +2190,12 @@ justify-content: space-between;
               align-items: center;
               font-size: $f2;
               text-transform: uppercase;
+              &.border{
+                color: $green-color;
+                background-color:$white-color;
+                border: 3px solid $green-color
+              
+              }
             }
           }
         }

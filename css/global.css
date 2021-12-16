@@ -143,8 +143,8 @@ a:hover, a:focus {
 }
 
 .custom-container.no-top-bottom-padding {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .custom-container.small-padding {

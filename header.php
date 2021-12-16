@@ -106,7 +106,7 @@
                         </ul> 
                     </div>
                 </div> 
-              
+                <div class="openbtn"  onclick="openNav()">&#9776;</div>
             </div> 
         </div>               
     </header>
@@ -121,66 +121,63 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="nav-section">
         <div class="navigation">
-            <ul>
-                <li>
-                    <a href="index.php">Home</a>
-                </li>
-                <li>
-                    <a href="publication.php">publications</a>
-                </li>
-                <li>
-                    <a href="contact.php">contact us</a>
-                </li>
-            </ul>
+           
             <ul uk-accordion>
+                
                 <li>
-                    <a class="uk-accordion-title" href="#">about iref</a>
+                    <a class="uk-accordion-title" href="about.php">about odaan</a>
                     <div class="uk-accordion-content">
                         <ul class="sub-menu">
                             <li>
-                                <a href="about.php">Why Choose Us</a>
+                                <a href="#">Why Choose Us</a>
                             </li>
                             <li>
-                                <a href="chairman.php">Chairman's Voice</a>
+                                <a href="#">message from founder</a>
                             </li>
                             <li>
-                                <a href="team.php">Our Team</a>
+                                <a href="#">contact us </a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li>
-                    <a class="uk-accordion-title" href="#">services</a>
+                    <a class="uk-accordion-title" href="room-type.php">types of rooms </a>
                     <div class="uk-accordion-content">
                         <ul class="sub-menu">
                             <li>
-                                <a href="services.php">Research Services</a>
+                                <a href="#">standard room</a>
                             </li>
                             <li>
-                                <a href="services.php">Phd & other Studies</a>
+                                <a href="#">superor room </a>
+                            </li>
+                            <li>
+                                <a href="#">junior suite </a>
                             </li>
                         </ul>
                     </div>
                 </li>
+          
                 <li>
-                    <a class="uk-accordion-title" href="#">programs</a>
+                    <a class="uk-accordion-title" href="event.php">our events </a>
                     <div class="uk-accordion-content">
                         <ul class="sub-menu">
                             <li>
-                                <a href="events.php">Our News & Events</a>
+                                <a href="#">view events </a>
                             </li>
                             <li>
-                                <a href="">Our Gallery</a>
+                                <a href="#">buy a ticket </a>
                             </li>
                         </ul>
                     </div>
                 </li>
+                <li> <a href="menu.php">our menu</a> </li>
+                <li> <a href="gallery.php">gallery</a> </li>
             </ul>
         </div>
     </div>
 </div>
 
-<span class="openbtn"  onclick="openNav()">&#9776;</span>
+
 
     <!-------------------------------- Content Wrapper Starts ---------------------------------->
     <div id="content-wrapper">

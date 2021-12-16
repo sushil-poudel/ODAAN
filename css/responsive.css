@@ -184,6 +184,80 @@
   #homepage .service-section .custom-container .service-container .section-content .column-2 .image-container {
     width: 734px;
   }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 p {
+    font-size: 18px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 button {
+    font-size: 18px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container {
+    height: 349px;
+    width: 404px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-2-container {
+    height: 220px;
+    width: 303px;
+    top: 36%;
+    right: -34%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-3-container {
+    height: 220px;
+    width: 306px;
+    bottom: -31%;
+    right: 9%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container {
+    font-size: 22px;
+    right: 15%;
+    bottom: 19%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container span {
+    font-size: 78px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container {
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 40px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container .image-container {
+    height: 50px;
+    width: 50px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .title-container h4 {
+    font-size: 18px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .content-container p {
+    font-size: 18px;
+  }
+  #about-page .video-section .custom-container {
+    padding: 0;
+  }
+  #about-page .video-section .custom-container .video-container .image-container {
+    height: 648px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h4 {
+    font-size: 30px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h2 {
+    font-size: 52px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button {
+    height: 155px;
+    width: 155px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button a .image-container {
+    height: 66px;
+    width: 66px;
+  }
   #reservation-page .room-details-section .custom-container .room-details-container .column-1 .title-container h1 {
     font-size: 42px;
   }
@@ -636,6 +710,79 @@
             animation: slide-down 0.7s;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 p {
+    font-size: 16px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 button {
+    font-size: 16px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container {
+    height: 349px;
+    width: 404px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-2-container {
+    height: 220px;
+    width: 303px;
+    top: 36%;
+    right: -34%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-3-container {
+    height: 220px;
+    width: 306px;
+    bottom: -31%;
+    right: 9%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container {
+    font-size: 22px;
+    right: 15%;
+    bottom: 19%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container span {
+    font-size: 78px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container {
+    border-radius: 50%;
+    padding: 15px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container .image-container {
+    height: 50px;
+    width: 50px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .title-container h4 {
+    font-size: 16px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .content-container p {
+    font-size: 16px;
+  }
+  #about-page .video-section .custom-container {
+    padding: 0;
+  }
+  #about-page .video-section .custom-container .video-container .image-container {
+    height: 648px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h4 {
+    font-size: 30px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h2 {
+    font-size: 52px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button {
+    height: 155px;
+    width: 155px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button a .image-container {
+    height: 66px;
+    width: 66px;
   }
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
@@ -1328,6 +1475,81 @@
     width: 443px;
     height: 640px;
   }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 {
+    width: 50%;
+    margin-right: 50px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 p {
+    font-size: 14px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 button {
+    font-size: 14px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container {
+    height: 349px;
+    width: 404px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-2-container {
+    height: 220px;
+    width: 303px;
+    top: 36%;
+    right: -34%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-3-container {
+    height: 220px;
+    width: 306px;
+    bottom: -31%;
+    right: 9%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container {
+    font-size: 22px;
+    right: 12%;
+    bottom: 16%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container span {
+    font-size: 78px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 {
+    width: 50%;
+    margin-left: 120px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container {
+    border-radius: 50%;
+    padding: 10px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container .image-container {
+    height: 40px;
+    width: 40px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .title-container h4 {
+    font-size: 14px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .content-container p {
+    font-size: 14px;
+  }
+  #about-page .video-section .custom-container {
+    padding: 0;
+  }
+  #about-page .video-section .custom-container .video-container .image-container {
+    height: 648px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h4 {
+    font-size: 30px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h2 {
+    font-size: 52px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button {
+    height: 155px;
+    width: 155px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button a .image-container {
+    height: 66px;
+    width: 66px;
+  }
   #menu-page .menu-section .custom-container .menu-container .heading-container {
     margin-bottom: 110px;
   }
@@ -1912,6 +2134,80 @@
     width: 333px;
     height: 552px;
   }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 {
+    width: 50%;
+    margin-right: 50px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 p {
+    font-size: 14px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 button {
+    font-size: 14px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container {
+    height: 349px;
+    width: 373px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-2-container {
+    height: 203px;
+    width: 289px;
+    top: 36%;
+    right: -17%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-3-container {
+    height: 220px;
+    width: 306px;
+    bottom: -44%;
+    right: 2%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container {
+    font-size: 22px;
+    right: 5%;
+    bottom: 21%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container span {
+    font-size: 78px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 {
+    width: 50%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container {
+    border-radius: 50%;
+    padding: 10px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container .image-container {
+    height: 30px;
+    width: 30px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .title-container h4 {
+    font-size: 14px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .content-container p {
+    font-size: 14px;
+  }
+  #about-page .video-section .custom-container {
+    padding: 0;
+  }
+  #about-page .video-section .custom-container .video-container .image-container {
+    height: 648px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h4 {
+    font-size: 30px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h2 {
+    font-size: 52px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button {
+    height: 155px;
+    width: 155px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button a .image-container {
+    height: 66px;
+    width: 66px;
+  }
   #menu-page .menu-section .custom-container .menu-container .heading-container {
     margin-bottom: 110px;
   }
@@ -2314,6 +2610,18 @@
   }
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  body.normal #about-page {
+    background-color: #E5E5E5;
+  }
+  body.normal #about-page .about-section .custom-container .about-container .section-content-container .column-2 {
+    display: none;
+  }
+  body.normal #about-page .about-section .custom-container .about-container .section-content-container .column-3 {
+    right: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    display: unset;
+  }
   #homepage .display-room-section .custom-container {
     padding: 40px 20px;
   }
@@ -2440,11 +2748,18 @@
     height: 381px;
     width: 100%;
     margin-right: 0;
+    margin-bottom: 50px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-1 .image-container.upper {
+    margin-bottom: 47%;
   }
   #homepage .feature-section .custom-container .feature-container .column-1 .like-container {
-    padding: 10px;
+    padding: 0 10px;
     left: 0;
-    bottom: 33%;
+    bottom: 36%;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-1 .like-container ul {
+    margin: 5px 0;
   }
   #homepage .feature-section .custom-container .feature-container .column-1 .like-container ul li:nth-of-type(1) {
     font-size: 14px;
@@ -2453,8 +2768,8 @@
     font-size: 13px;
   }
   #homepage .feature-section .custom-container .feature-container .column-1 .like-container .common-button-container a button {
-    height: 49px;
-    width: 180px;
+    height: 40px;
+    width: 135px;
     font-size: 13px;
   }
   #homepage .feature-section .custom-container .feature-container .column-2 {
@@ -2469,8 +2784,24 @@
   #homepage .feature-section .custom-container .feature-container .column-2 .text-container p {
     font-size: 13px;
   }
+  #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-1 ul li:nth-of-type(1) {
+    margin-right: -10px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-1 ul li:nth-of-type(1) .image-container {
+    height: 30px;
+    width: 30px;
+    margin-right: 13px;
+  }
   #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-1 ul li:nth-of-type(2) {
     font-size: 13px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-2 ul li:nth-of-type(1) {
+    margin-right: -10px;
+  }
+  #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-2 ul li:nth-of-type(1) .image-container {
+    height: 30px;
+    width: 30px;
+    margin-right: 13px;
   }
   #homepage .feature-section .custom-container .feature-container .column-2 .row .sub-column-2 ul li:nth-of-type(2) {
     font-size: 13px;
@@ -2482,6 +2813,261 @@
   #homepage .service-section .custom-container .service-container .section-content .column-2 .image-container {
     width: 100%;
     height: 100%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 {
+    width: 100%;
+    margin-right: 0;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 p {
+    font-size: 13px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-1 button {
+    font-size: 13px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 {
+    width: 100%;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container {
+    height: 100%;
+    width: 100%;
+    position: unset;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-2-container {
+    height: 100%;
+    width: 100%;
+    position: unset;
+    top: 0;
+    right: 0;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .image-1-container .image-3-container {
+    height: 100%;
+    width: 100%;
+    position: unset;
+    bottom: 0;
+    right: 0;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container {
+    font-size: 22px;
+    right: 0;
+    bottom: 0;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-2 .images-container .text-container span {
+    font-size: 78px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 {
+    width: 100%;
+    margin-left: 0;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container {
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 20px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .icon-container .image-container {
+    height: 30px;
+    width: 30px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .title-container h4 {
+    font-size: 13px;
+  }
+  #about-page .about-section .custom-container .about-container .section-content-container .column-3 .about-item-container .text-container .content-container p {
+    font-size: 13px;
+  }
+  #about-page .video-section .custom-container {
+    padding: 0;
+  }
+  #about-page .video-section .custom-container .video-container .image-container {
+    height: 648px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h4 {
+    font-size: 30px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .title-container h2 {
+    font-size: 52px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button {
+    height: 155px;
+    width: 155px;
+  }
+  #about-page .video-section .custom-container .video-container .image-container .icon-container button a .image-container {
+    height: 66px;
+    width: 66px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 {
+    width: 100%;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .title-container h1 {
+    font-size: 26px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .subtitle-container-1 h2 {
+    font-size: 18px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .subtitle-container-2 h3 {
+    font-size: 18px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .content-container p {
+    font-size: 13px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .images-container {
+    margin: 30px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .images-container .image-item {
+    width: 100%;
+    height: 100%;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .rules-container h4 {
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-1 .rules-container ul li {
+    font-size: 13px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 {
+    width: 100%;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container {
+    padding: 50px 30px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container .title-container h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form label {
+    font-size: 13px;
+    margin-right: 30px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form label span {
+    color: #051924;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form label .extra-title {
+    color: #1ACE75;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form input {
+    margin: 30px 0;
+    padding: 20px;
+    font-size: 13px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form h2 {
+    font-size: 18px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form ul li .radio-label .price {
+    margin-left: 50px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form h3 {
+    font-size: 32px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form h1 {
+    font-size: 26px;
+  }
+  #reservation-page .room-details-section .custom-container .room-details-container .column-2 .form-container form .common-button-container a button {
+    padding: 20px 0;
+  }
+  #menu-page .menu-section .custom-container .menu-container .heading-container {
+    margin-bottom: 110px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .heading-container .title-container h1 {
+    font-size: 26px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .heading-container .title-container h1::after {
+    width: 53px;
+    bottom: -45%;
+    right: 33%;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-1 {
+    width: 100%;
+    margin-right: 0;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-1 .menu-item-container .menu-title-container h3 {
+    font-size: 18px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-1 .menu-item-container .menu-subtitle-container h4 {
+    font-size: 13px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-1 .menu-item-container .price-container h4 {
+    font-size: 18px;
+    padding-left: 178px;
+    margin-bottom: 50px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-1 .menu-item-container .price-container span {
+    width: 164px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-2 {
+    width: 100%;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-2 .menu-item-container .menu-title-container h3 {
+    font-size: 18px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-2 .menu-item-container .menu-subtitle-container h4 {
+    font-size: 13px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-2 .menu-item-container .price-container h4 {
+    font-size: 18px;
+    padding-left: 178px;
+    margin-bottom: 60px;
+  }
+  #menu-page .menu-section .custom-container .menu-container .menu-items-container .column-2 .menu-item-container .price-container span {
+    width: 164px;
+  }
+  #contact-page .contact-section .custom-container {
+    padding: 0;
+  }
+  #contact-page .contact-section .custom-container .contact-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #contact-page .contact-section .custom-container .contact-container .contact-us-container {
+    width: 100%;
+    height: 680px;
+    padding: 40px 20px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .contact-us-container .heading-container h1 {
+    font-size: 40px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .contact-us-container .heading-container P {
+    font-size: 18px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .contact-us-container .icon-text .icon {
+    font-size: 25px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .contact-us-container .icon-text .text {
+    font-size: 13px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .contact-us-container .icon-text .text h6 {
+    font-size: 22px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .contact-us-container .icon-text .text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .form-container {
+    width: 100%;
+    margin: 0;
+  }
+  #contact-page .contact-section .custom-container .contact-container .form-container h1 {
+    font-size: 40px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .form-container form input, #contact-page .contact-section .custom-container .contact-container .form-container form textarea {
+    width: 80%;
+    margin: 26px 0;
+    padding: 14px;
+    font-size: 13px;
+  }
+  #contact-page .contact-section .custom-container .contact-container .form-container button {
+    font-size: 13px;
   }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
@@ -2628,6 +3214,113 @@
     content: '';
     height: 3px;
     width: 25px;
+  }
+  .common-room-type-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .common-room-type-container .column-1 {
+    width: 100%;
+  }
+  .common-room-type-container .column-1 .image-slider .image-item .image-container img {
+    height: 500px !important;
+  }
+  .common-room-type-container .column-2 {
+    width: 100%;
+    height: 466px;
+    padding-bottom: 30px;
+  }
+  .common-room-type-container .column-2 .column-2-content {
+    padding: 50px 25px 0px 25px;
+  }
+  .common-room-type-container .column-2 .column-2-content h1 {
+    font-size: 18px;
+  }
+  .common-room-type-container .column-2 .column-2-content h2 {
+    font-size: 13px;
+  }
+  .common-room-type-container .column-2 .column-2-content p {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  .common-room-type-container .column-2 .column-2-content h4 {
+    font-size: 13px;
+  }
+  .common-facilities-container h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .common-facilities-container ul {
+    margin-bottom: 20px;
+  }
+  .common-facilities-container ul li {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  .common-facilities-container ul li .image-container {
+    width: 22px;
+  }
+  .common-facilities-container ul li:not(:last-of-type) {
+    margin-right: 13px;
+  }
+  .common-facilities-container ul li:nth-of-type(2) {
+    margin-right: 20px;
+  }
+  .common-facilities-container ul li:nth-of-type(4) {
+    margin-right: 20px;
+  }
+  .common-facilities-container h4 {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .common-card-container .title-container h1 {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .common-card-container .card-items-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .common-card-container .card-items-container .card-item:not(:last-of-type) {
+    margin-right: 0;
+  }
+  .common-card-container .card-items-container .card-item .common-image-container {
+    height: 80%;
+    width: 100%;
+  }
+  .common-card-container .card-items-container .card-item .common-image-container img {
+    border-radius: 30px;
+  }
+  .common-card-container .card-items-container .card-item .common-image-container .date-container {
+    height: 70px;
+    width: 70px;
+  }
+  .common-card-container .card-items-container .card-item .common-image-container .date-container span {
+    font-size: 13px;
+  }
+  .common-card-container .card-items-container .card-item .common-image-container .tag-container {
+    height: 70px;
+    width: 70px;
+  }
+  .common-card-container .card-items-container .card-item .common-image-container .tag-container span i {
+    font-size: 14px;
+  }
+  .common-card-container .card-items-container .card-item .card-caption-container .card-title-container {
+    font-size: 13px;
+  }
+  .common-card-container .card-items-container .card-item .card-caption-container .card-time-container {
+    font-size: 13px;
+  }
+  .common-card-container .card-items-container .card-item .card-caption-container .card-days-container ul li {
+    margin-right: 5px;
+    font-size: 13px;
   }
   /*------------------------------------ Components Ends ------------------------------------*/
   /*---------------------------------- Slick Slider Starts ----------------------------------*/

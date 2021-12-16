@@ -56,8 +56,8 @@
                                 <div class="date-container">
                                     <button>15th <br> SEP.</button>
                                 </div>
-                                <div class="tag-container ">
-                                    <button><i class="bi bi-tag"></i></button>
+                                <div class="tag-container">
+                                    <button id="myBtn"><i class="bi bi-tag"></i></button>
                                 </div>
                             </div>
                             <div class="card-caption-container">
@@ -71,11 +71,11 @@
                                     <ul>
                                         <li>s</li>
                                         <li>m</li>
-                                        <li>t</li>
+                                        <li >t</li>
                                         <li>w</li>
                                         <li>th</li>
-                                        <li>f</li>
-                                        <li>s</li>
+                                        <li class="border">f</li>
+                                        <li class="border">s</li>
                                     
                                     </ul>
                                 </div>
@@ -100,12 +100,12 @@
                                 </div>
                                 <div class="card-days-container">
                                     <ul>
-                                        <li>s</li>
+                                        <li class="border">s</li>
                                         <li>m</li>
                                         <li>t</li>
                                         <li>w</li>
                                         <li>th</li>
-                                        <li>f</li>
+                                        <li class="border">f</li>
                                         <li>s</li>
                                     
                                     </ul>
@@ -143,8 +143,8 @@
                                         <li>t</li>
                                         <li>w</li>
                                         <li>th</li>
-                                        <li>f</li>
-                                        <li>s</li>
+                                        <li class="border">f</li>
+                                        <li class="border">s</li>
                                     
                                     </ul>
                                 </div>
@@ -181,8 +181,8 @@
                                         <li>t</li>
                                         <li>w</li>
                                         <li>th</li>
-                                        <li>f</li>
-                                        <li>s</li>
+                                        <li class="border">f</li>
+                                        <li class="border">s</li>
                                     
                                     </ul>
                                 </div>
@@ -207,12 +207,12 @@
                                 </div>
                                 <div class="card-days-container">
                                     <ul>
-                                        <li>s</li>
+                                        <li class="border">s</li>
                                         <li>m</li>
                                         <li>t</li>
                                         <li>w</li>
                                         <li>th</li>
-                                        <li>f</li>
+                                        <li class="border">f</li>
                                         <li>s</li>
                                     
                                     </ul>
@@ -243,8 +243,8 @@
                                         <li>t</li>
                                         <li>w</li>
                                         <li>th</li>
-                                        <li>f</li>
-                                        <li>s</li>
+                                        <li class="border">f</li>
+                                        <li class="border">s</li>
                                     
                                     </ul>
                                 </div>
@@ -269,12 +269,12 @@
                                 </div>
                                 <div class="card-days-container">
                                     <ul>
-                                        <li>s</li>
+                                        <li class="border">s</li>
                                         <li>m</li>
                                         <li>t</li>
                                         <li>w</li>
                                         <li>th</li>
-                                        <li>f</li>
+                                        <li class="border">f</li>
                                         <li>s</li>
                                     
                                     </ul>
