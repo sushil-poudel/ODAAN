@@ -88,7 +88,7 @@
                                     <button>15th <br> SEP.</button>
                                 </div>
                                 <div class="tag-container myBtn" >
-                                    <button><i class="bi bi-tag"></i></button>
+                                    <button id="myBtn"><i class="bi bi-tag"></i></button>
                                 </div>
                             </div>
                             <div class="card-caption-container">
@@ -125,8 +125,8 @@
                                 <div class="date-container">
                                     <button>15th <br> SEP.</button>
                                 </div>
-                                <div class="tag-container ">
-                                    <button><i class="bi bi-tag"></i></button>
+                                <div class="tag-container myBtn" >
+                                    <button id="myBtn"><i class="bi bi-tag"></i></button>
                                 </div>
                             </div>
                             <div class="card-caption-container">
@@ -164,7 +164,7 @@
                                     <button>15th <br> SEP.</button>
                                 </div>
                                 <div class="tag-container">
-                                    <button><i class="bi bi-tag"></i></button>
+                                    <button id="myBtn"><i class="bi bi-tag"></i></button>
                                 </div>
                             </div>
                             <div class="card-caption-container">
@@ -195,7 +195,7 @@
                                     <button>15th <br> SEP.</button>
                                 </div>
                                 <div class="tag-container">
-                                    <button><i class="bi bi-tag"></i></button>
+                                    <button id="myBtn"><i class="bi bi-tag"></i></button>
                                 </div>
                             </div>
                             <div class="card-caption-container">
@@ -226,7 +226,7 @@
                                     <button>15th <br> SEP.</button>
                                 </div>
                                 <div class="tag-container">
-                                    <button><i class="bi bi-tag"></i></button>
+                                    <button id="myBtn"><i class="bi bi-tag"></i></button>
                                 </div>
                             </div>
                             <div class="card-caption-container">
@@ -257,7 +257,7 @@
                                     <button>15th <br> SEP.</button>
                                 </div>
                                 <div class="tag-container">
-                                    <button><i class="bi bi-tag"></i></button>
+                                    <button id="myBtn"><i class="bi bi-tag"></i></button>
                                 </div>
                             </div>
                             <div class="card-caption-container">

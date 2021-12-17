@@ -79,7 +79,7 @@
                                 <ul class="dropdown-menu-own">
                                     <li> <a href="about.php"> why choose us </a> </li>
                                     <li>  <a href="message-ceo.php">message from founder </a></li>
-                                    <li><a href="team.php"> contact us</a></li>
+                                    <li><a href="contact.php"> contact us</a></li>
                                 </ul>
                             </li>
                         
@@ -102,7 +102,7 @@
                                 </ul>
                             </li>
                             <li class="submenu-container"><a href="gallery.php">gallery</a></li>
-                            <li class="common-button-container submenu-container"><a href="contact.php"><button><i class="fas fa-phone-square-alt"></i> +977 9861248976</button>  </a></li>
+                            <li class="common-button-container submenu-container"><a href="#"><button><i class="fas fa-phone-square-alt"></i> +977 9861248976</button>  </a></li>
                         </ul> 
                     </div>
                 </div> 

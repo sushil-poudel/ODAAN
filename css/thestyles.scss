@@ -1742,8 +1742,10 @@ body{
 .common-banner-section{
   position: relative;
   margin-bottom: 140px;
+  
     .common-banner-slider {
       .banner-item {
+        overflow: hidden;
         .image-container {
           height: 125vh;
           // height: 850px;
@@ -2553,7 +2555,25 @@ justify-content: space-between;
   animation: pulse-popup 1.3s ease-in-out infinite both;
 }
 
-
+@keyframes banner-popup{
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.1);
+  }
+  
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.banner-animation{
+ 
+  animation: banner-popup 10s ease-in-out infinite both;
+}
 
 /*---------------------------------- animation ends ----------------------------------*/
 

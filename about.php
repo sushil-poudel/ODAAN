@@ -5,7 +5,7 @@
     <section class="common-banner-section">
         <div class="common-banner-slider">
             <div class="banner-item">
-                <div class="image-container" style="background-image: url('assets/img/gallery/image-1.jpg')">
+                <div class="image-container " style="background-image: url('assets/img/gallery/image-1.jpg')">
                     <div class="custom-container">
                         <div class="inner">
                             <div class="banner-content">

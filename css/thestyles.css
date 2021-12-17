@@ -1912,6 +1912,10 @@ body.normal #about-page .about-section .custom-container .about-container .secti
   margin-bottom: 140px;
 }
 
+.common-banner-section .common-banner-slider .banner-item {
+  overflow: hidden;
+}
+
 .common-banner-section .common-banner-slider .banner-item .image-container {
   height: 125vh;
   background-position: center;
@@ -2879,6 +2883,41 @@ body.normal #about-page .about-section .custom-container .about-container .secti
 .pulse-animation {
   -webkit-animation: pulse-popup 1.3s ease-in-out infinite both;
           animation: pulse-popup 1.3s ease-in-out infinite both;
+}
+
+@-webkit-keyframes banner-popup {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes banner-popup {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.banner-animation {
+  -webkit-animation: banner-popup 10s ease-in-out infinite both;
+          animation: banner-popup 10s ease-in-out infinite both;
 }
 
 /*---------------------------------- animation ends ----------------------------------*/

@@ -5,9 +5,9 @@
 <div id="homepage">
     <section class="common-banner-section">
         <div class="common-banner-slider">
-            <div class="banner-item">
-                <div class="image-container animation-scale" style="background-image: url('assets/img/slider/slider-2.jpg')">
-                    <div class="custom-container">
+            <div class="banner-item ">
+                <div class="image-container banner-animation " style="background-image: url('assets/img/slider/slider-2.jpg')">
+                    <div class="custom-container ">
                         <div class="inner">
                             <div class="banner-content">
                                 <div class="section-content-banner">
@@ -31,8 +31,8 @@
                     </div>
                 </div>
             </div>
-            <div class="banner-item">
-                <div class="image-container" style="background-image: url('assets/img/slider/slider-1.jpg')">
+            <div class="banner-item ">
+                <div class="image-container banner-animation" style="background-image: url('assets/img/slider/slider-1.jpg')">
                 <div class="custom-container">
                         <div class="inner">
                             <div class="banner-content">
