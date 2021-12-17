@@ -491,15 +491,15 @@
                     <div class="column-1 animation-area1">
                         <div class="common-box-container left text-right ani-sequence lefting">
                             <h2>24h Front Desk</h2>
-                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo </p>
                         </div>
                         <div class="common-box-container left text-right ani-sequence lefting">
                             <h2>airport transfers</h2>
-                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo </p>
                         </div>
                         <div class="common-box-container left text-right ani-sequence lefting">
                             <h2>outdoor activities</h2>
-                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo </p>
                         </div>
                     </div>
                     <div class="column-2">
@@ -510,15 +510,15 @@
                     <div class="column-1 animation-area2">
                         <div class="common-box-container right text-left ani-sequence righting  ">
                             <h2>restaurant & bars </h2>
-                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo </p>
                         </div> 
                         <div class="common-box-container right  text-left ani-sequence righting">
                             <h2>live music show </h2>
-                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo </p>
                         </div>
                         <div class="common-box-container right  text-left ani-sequence righting">
                             <h2>15K per night stay</h2>
-                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo repudiandae</p>
+                            <p>Lorem ipsum dolor sit amet, in nam denique suavitateputo </p>
                         </div>
                     </div>
                 </div>

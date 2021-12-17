@@ -149,8 +149,10 @@
     font-size: 18px;
   }
   #homepage .menu-section .custom-container .menu-container .column-2 .background-color .main-image-container {
-    top: -69%;
-    left: 8%;
+    height: 280px;
+    width: 552px;
+    top: -48%;
+    left: 11%;
   }
   #homepage .menu-section .custom-container .menu-container .column-2 .background-color h5 {
     font-size: 16px;
@@ -426,22 +428,22 @@
     font-size: 58px;
   }
   #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-1 p {
-    font-size: 22px;
+    font-size: 21px;
   }
   #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-2 {
     margin-left: 30px;
   }
   #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-2 ul li {
-    font-size: 22px;
+    font-size: 21px;
   }
   #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-3 {
     margin-left: 30px;
   }
   #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-3 ul li {
-    font-size: 22px;
+    font-size: 21px;
   }
   #footer-wrapper .footer-section .image-container .custom-container .footer-container .column-4 ul li {
-    font-size: 22px;
+    font-size: 21px;
   }
   #footer-wrapper .copyright-section .custom-container .copyright-container .copyright-left {
     font-size: 18px;
@@ -461,9 +463,6 @@
   .common-banner-section {
     margin-bottom: 140px;
   }
-  .common-banner-section .common-banner-slider .banner-item .image-container {
-    height: 110vh;
-  }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content {
     top: 142%;
     right: 7%;
@@ -472,6 +471,10 @@
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-title h1 {
     letter-spacing: 0.25em;
     font-size: 160px;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-title.text-small {
+    font-size: 95px;
+    letter-spacing: 0;
   }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner span {
     width: 300px;
@@ -499,7 +502,7 @@
   }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .icon-container i {
     font-size: 30px;
-    bottom: -15%;
+    bottom: -8%;
   }
   .common-search-section {
     width: 1267px;
@@ -1100,7 +1103,7 @@
   .common-search-section {
     width: 1100px;
     height: 200px;
-    bottom: -16%;
+    bottom: -11%;
   }
   .common-search-section .custom-container .search-container .section-title h2 {
     font-size: 16px;
@@ -1319,6 +1322,10 @@
   }
   #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own {
     background-color: #2e2e2e;
+    min-width: 190px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own::after {
+    right: 161px !important;
   }
   #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own > li {
     padding: 14px 12px;
@@ -1787,16 +1794,24 @@
     margin-bottom: 50px;
   }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content {
-    top: 102%;
+    top: 140%;
     right: 7%;
     left: 0;
   }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-title h1 {
+    letter-spacing: 0.2em;
+    font-size: 140px;
+  }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-title h1.text-small {
-    font-size: 80px;
+    font-size: 70px;
     letter-spacing: 0;
+  }
+  .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner span {
+    width: 230px;
   }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner span:after {
     content: '';
+    width: 230px;
   }
   .common-banner-section .common-banner-slider .banner-item .image-container .custom-container .inner .banner-content .section-content-banner p {
     font-size: 32px;
@@ -1966,6 +1981,10 @@
   }
   #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own {
     background-color: #2e2e2e;
+    min-width: 150px;
+  }
+  #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own::after {
+    left: 11%;
   }
   #header-wrapper .custom-container.no-top-bottom-padding .navbar-container .nav-container .nav-content > ul > li ul.dropdown-menu-own > li {
     padding: 14px 12px;
@@ -2707,20 +2726,24 @@
     font-size: 13px;
   }
   #homepage .menu-section .custom-container .menu-container .column-2 .background-color {
-    width: 274px;
-    height: 414px;
+    position: unset;
+    width: 100%;
+    height: 498px;
   }
   #homepage .menu-section .custom-container .menu-container .column-2 .background-color .main-image-container {
-    height: 159px;
+    height: 284px;
     width: 100%;
-    top: -16%;
-    left: 4%;
+    top: 0;
+    left: 0;
+    position: unset;
   }
   #homepage .menu-section .custom-container .menu-container .column-2 .background-color .images-container {
+    margin-top: 50px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    bottom: 12%;
-    right: 17%;
+    bottom: 0;
+    right: 0;
+    position: unset;
   }
   #homepage .menu-section .custom-container .menu-container .column-2 .background-color .images-container .image-container {
     -ms-flex-wrap: wrap;

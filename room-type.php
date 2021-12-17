@@ -31,6 +31,34 @@
             </div>
         </div>
 
+        
+        <section class="common-search-section">
+            <div class="custom-container">
+                <div class="search-container">
+                    <div class="section-title">
+                        <h2>check for room availability</h2>
+                    </div>
+                    <form action="#" class="form-container">
+                        <div class="form-inputs">
+                           
+                        <input placeholder="check in" class="form-input date" type="text" onfocus="(this.type='date')" id="date">
+                        <input placeholder="check out" class="form-input date" type="text" onfocus="(this.type='date')" id="date">
+                            
+                            <input type="number" class="form-input" name="number-of-people" placeholder="number of people">
+                            <input type="text" class="form-input" name="room-type" placeholder="room type">
+                          
+                           
+                        </div>
+                        <div class="common-icon-button">
+                            <button>
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
     </section>
 
     <section class="room-type-section-1">

@@ -289,9 +289,10 @@ $f14:44px;
         
        
               .main-image-container{
-           
-                top:-69%;
-                left: 8%;
+                height: 280px;
+                width: 552px;
+                top:-48%;
+                left: 11%;
                 
             
                 img{
@@ -1100,7 +1101,7 @@ $f14:44px;
                 }
               }
               p{
-                font-size: 22px;
+                font-size: 21px;
        ;
               }
             }
@@ -1109,7 +1110,7 @@ $f14:44px;
      
             ul{
               li{
-                font-size: 22px;
+                font-size: 21px;
      
               }
             }
@@ -1118,7 +1119,7 @@ $f14:44px;
               margin-left: 30px;
               ul{
                 li{
-                  font-size: 22px;
+                  font-size: 21px;
                   
                   i{
                 
@@ -1130,7 +1131,7 @@ $f14:44px;
          
               ul{
                 li{
-                  font-size: 22px;
+                  font-size: 21px;
          
                 }
                 li:nth-of-type(5){
@@ -1186,7 +1187,7 @@ $f14:44px;
     .common-banner-slider {
       .banner-item {
         .image-container {
-          height: 110vh;
+          
          
           .custom-container {
       
@@ -1207,6 +1208,10 @@ $f14:44px;
                   span{
               
                     }
+                  }
+                  &.text-small{
+                    font-size: 95px;
+                    letter-spacing: 0;
                   }
                 }
   
@@ -1255,7 +1260,7 @@ $f14:44px;
          
                     font-size: $f8;
                
-                    bottom: -15%;
+                    bottom: -8%;
                   }
                 }
               }
@@ -2696,7 +2701,7 @@ $f14:44px;
   .common-search-section{
     width: 1100px;
     height: 200px;
-    bottom: -16%;
+    bottom: -11%;
     .custom-container{
 
       .search-container{
@@ -3102,7 +3107,10 @@ $f14:44px;
                     
                    
                     background-color: #2e2e2e;
-                   
+                    min-width: 190px;
+                    &::after{
+                      right: 161px !important;
+                    }
                     & > li{
                       padding: 14px 12px;
                
@@ -4234,18 +4242,18 @@ $f14:44px;
            
               .banner-content {
               
-                top:102%;
+                top:140%;
                 right: 7%;
                 left: 0;
                 .section-title {
                   h1 {
-               
-                    
+                    letter-spacing: 0.2em;
+                      font-size: 140px;
                     span{
                 
                     }
                     &.text-small{
-                      font-size: 80px;
+                      font-size: 70px;
                       letter-spacing: 0;
                     }
                   }
@@ -4254,12 +4262,12 @@ $f14:44px;
                 .section-content-banner {
                   span{
             
-                
+                    width: 230px;
                 
                     
                     &:after{
                       content: '';
-               
+                      width: 230px;
                     }
                   }
                   .thick{
@@ -4594,6 +4602,10 @@ $f14:44px;
                     
                    
                     background-color: #2e2e2e;
+                    min-width: 150px;
+                    &::after{
+                        left:11%;
+                    }
                    
                     & > li{
                       padding: 14px 12px;
@@ -6120,29 +6132,32 @@ $f14:44px;
           }
           .column-2{
             .background-color{
-        
-              width: 274px;
-              height: 414px;
+              position: unset;
+              width: 100%;
+              height: 498px;
               .main-image-container{
-                height: 159px;
+                height: 284px;
                 width: 100%;
-                top:-16%;
-                left: 4%;
-                
+                top:0;
+                left:0;
+                position: unset;
             
                 img{
                
                 }
               }
               .images-container{
+                margin-top: 50px;
                 flex-wrap: wrap;
-                bottom: 12%;
-                right: 17%;
+                bottom: 0;
+                right: 0;
+                position: unset;
+               
                 .image-container{ 
                   flex-wrap: wrap;
                   height: 78px;
                   width: 78px;
-                 
+            
                   &:not(:last-of-type){
                     margin-right: 5px;
                   }

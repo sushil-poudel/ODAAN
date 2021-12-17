@@ -20,7 +20,7 @@
                                 <span></span> <p>EST 1995</p> <span></span>
                                 </div>
                                 <div class="section-content">
-                                    <p>scroll for more</p>
+                                    <p class="margin-top">scroll for more</p>
                                 </div>
                                 <div class="icon-container">
                                 <i class="fas fa-angle-double-down"></i>

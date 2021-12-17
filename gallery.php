@@ -12,7 +12,7 @@
                                         <span></span> <p>hotel</p> <span></span>
                                     </div>
                                     <div class="section-title">
-                                        <h1 class="text-small">our <span>reservation</span></h1>
+                                        <h1 class="text-small">odaan's <span>gallery</span></h1>
                                     </div>
 
                                     <div class="section-content-banner">
