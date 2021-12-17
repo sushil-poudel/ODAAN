@@ -2916,8 +2916,44 @@ body.normal #about-page .about-section .custom-container .about-container .secti
 }
 
 .banner-animation {
-  -webkit-animation: banner-popup 10s ease-in-out infinite both;
-          animation: banner-popup 10s ease-in-out infinite both;
+  -webkit-animation: banner-popup 15s ease-in-out infinite both;
+          animation: banner-popup 15s ease-in-out infinite both;
+}
+
+@-webkit-keyframes scroll-popup {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scroll-popup {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.scroll-animation {
+  -webkit-animation: scroll-popup 0.5s ease-in-out infinite both;
+          animation: scroll-popup 0.5s ease-in-out infinite both;
+  margin-top: 40px;
 }
 
 /*---------------------------------- animation ends ----------------------------------*/

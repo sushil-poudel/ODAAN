@@ -21,9 +21,9 @@
                                 <span class="thick"></span> <p>EST 1995</p> <span class="thick"></span>
                                 </div>
                                 <div class="section-content" id="home-scroll">
-                                    <p>scroll for more</p>
+                                    <p ">scroll for more</p>
                                 </div>
-                                <div class="icon-container">
+                                <div class="icon-container scroll-animation">
                                     <i class="fas fa-angle-double-down"></i>
                                 </div>
                             </div>
